@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser">
+
+  <browser:page
+      for="*"
+      name="one_page_view"
+      class=".OnePage.OnePageView"
+      permission="zope2.View"
+      template="templates/one_page_view.pt"
+      layer="..interfaces.ICustomTheme"
+      />
+
+</configure>

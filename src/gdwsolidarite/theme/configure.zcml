@@ -5,6 +5,8 @@
    <include file="profiles.zcml" />
    <include file="skins.zcml" />
 
+   <include package=".browser" />
+
    <plone:static type="theme"
                  directory="static"
                  name="gdwsolidarite.theme" />

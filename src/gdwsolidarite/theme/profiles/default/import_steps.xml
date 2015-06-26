@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<import-steps>
+  <import-step id="gdwsolidarite.theme.setup"
+               version="20150626-01"
+               handler="gdwsolidarite.theme.setuphandler.setupSite"
+               title="GDW Solidarite theme : setup portal">
+    <dependency step="skins" />
+    Setup Solidarite portal.
+  </import-step>
+</import-steps>
