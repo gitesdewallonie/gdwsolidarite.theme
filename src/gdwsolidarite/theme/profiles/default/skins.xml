@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<object name="portal_skins"
+        allow_any="False"
+        cookie_persistence="False"
+        default_skin="Theme package for Action Solidarite one page site">
+
+    <object name="gdwsolidarite_theme_images"
+            meta_type="Filesystem Directory View"
+            directory="gdwsolidarite.theme:skins/gdwsolidarite_theme_images"/>
+
+    <skin-path name="Theme package for Action Solidarite one page site"
+               based-on="Sunburst Theme">
+        <layer name="gdwsolidarite_theme_images"
+               insert-after="custom"/>
+
+    </skin-path>
+
+</object>
