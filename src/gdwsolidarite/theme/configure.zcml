@@ -7,6 +7,12 @@
 
    <include package=".browser" />
 
+   <adapter
+       for="*
+            zope.publisher.interfaces.http.IHTTPRequest"
+       provides="zope.publisher.interfaces.IPublishTraverse"
+       factory=".traversal.RestrictTraversable" />
+
    <plone:static type="theme"
                  directory="static"
                  name="gdwsolidarite.theme" />
