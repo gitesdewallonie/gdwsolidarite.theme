@@ -27,6 +27,7 @@ setup(name='gdwsolidarite.theme',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'plone.api',
           'plone.app.themingplugins',
           # -*- Extra requirements: -*-
       ])
