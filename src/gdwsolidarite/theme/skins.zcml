@@ -3,5 +3,6 @@
     xmlns:cmf="http://namespaces.zope.org/cmf">
 
    <cmf:registerDirectory name="gdwsolidarite_theme_images"/>
+   <cmf:registerDirectory name="gdwsolidarite_theme_style"/>
 
 </configure>

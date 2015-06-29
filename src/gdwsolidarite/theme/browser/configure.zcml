@@ -2,13 +2,49 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:browser="http://namespaces.zope.org/browser">
 
-  <browser:page
-      for="*"
-      name="one_page_view"
-      class=".OnePage.OnePageView"
-      permission="zope2.View"
-      template="templates/one_page_view.pt"
-      layer="..interfaces.ICustomTheme"
-      />
+<!-- js -->
+    <browser:resource
+        name="fastclick.js"
+        file="js/fastclick.js"
+        />
+    <browser:resource
+        name="fixed-responsive-nav.js"
+        file="js/fixed-responsive-nav.js"
+        />
+    <browser:resource
+        name="jquery.localscroll-1.2.7-min.js"
+        file="js/jquery.localscroll-1.2.7-min.js"
+        />
+    <browser:resource
+        name="jquery.parallax-1.1.3.js"
+        file="js/jquery.parallax-1.1.3.js"
+        />
+    <browser:resource
+        name="jquery.scrollTo-1.4.2-min.js"
+        file="js/jquery.scrollTo-1.4.2-min.js"
+        />
+    <browser:resource
+        name="responsive-nav.js"
+        file="js/responsive-nav.js"
+        />
+    <browser:resource
+        name="script.js"
+        file="js/script.js"
+        />
+    <browser:resource
+        name="scroll.js"
+        file="js/scroll.js"
+        />
+
+
+
+    <browser:page
+        for="*"
+        name="one_page_view"
+        class=".OnePage.OnePageView"
+        permission="zope2.View"
+        template="templates/one_page_view.pt"
+        layer="..interfaces.ICustomTheme"
+        />
 
 </configure>

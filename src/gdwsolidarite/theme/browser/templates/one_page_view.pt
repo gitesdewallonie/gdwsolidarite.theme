@@ -10,25 +10,6 @@
           content="Affinitic" />
     <link rel="icon"
           href="images/favicon_gdw.ico"/>
-    <link href="css/master.css"
-          rel="stylesheet"
-          type="text/css" />
-    <link href="css/navigation.css"
-          rel="stylesheet"
-          type="text/css" />
-    <link href="css/formulaire.css"
-          rel="stylesheet"
-          type="text/css" />
-    <link href="css/responsive.css"
-          rel="stylesheet"
-          type="text/css" />
-    <script type="text/javascript"
-            src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-    <script src="js/nav/scroll.js"></script>
-    <script src="js/nav/fastclick.js"></script>
-    <script src="js/nav/responsive-nav.js"></script>
-    <script src="js/jquery.parallax-1.1.3.js"></script>
-    <script src="js/script.js"></script>
     <title>GDW</title>
 </head>
 
@@ -59,7 +40,8 @@
             </nav>
         </header>
 
-        <section id="accueil" class="section s1">
+        <section id="accueil"
+                 class="section s1">
             <article>
                 <h1>Tous à la campagne</h1>
                 <h2>Gîtes et Chambres d'hôtes de Wallonie</h2>
@@ -69,7 +51,8 @@
 
         <div class="separateur"></div>
 
-        <section id="action" class="section s2">
+        <section id="action"
+                 class="section s2">
             <h4>Action</h4>
             <a href=""
                tal:condition="python: member.has_role('Manager')"
@@ -105,7 +88,8 @@
 
         <div class="separateur"></div>
 
-        <section id="partenaire1" class="section s3">
+        <section id="partenaire1"
+                 class="section s3">
             <h4>partenaire 1</h4>
             <a href=""
                tal:condition="python: member.has_role('Manager')"
@@ -141,7 +125,8 @@
 
         <div class="separateur"></div>
 
-        <section id="partenaire2" class="section s4">
+        <section id="partenaire2"
+                 class="section s4">
             <h4>partenaire 2</h4>
             <a href=""
                tal:condition="python: member.has_role('Manager')"
@@ -177,7 +162,8 @@
 
         <div class="separateur"></div>
 
-        <section id="hebergement" class="section s4">
+        <section id="hebergement"
+                 class="section s4">
             <h4>Hébergements</h4>
             <a href=""
                tal:condition="python: member.has_role('Manager')"
@@ -213,7 +199,8 @@
 
         <div class="separateur"></div>
 
-        <section id="federation" class="section s4">
+        <section id="federation"
+                 class="section s4">
             <h4>Fédération</h4>
             <a href=""
                tal:condition="python: member.has_role('Manager')"
@@ -249,7 +236,8 @@
 
         <div class="separateur"></div>
 
-        <section id="reseaux-sociaux" class="section s4">
+        <section id="reseaux-sociaux"
+                 class="section s4">
             <h4>Nous suivre</h4>
             <a href=""
                tal:condition="python: member.has_role('Manager')"
@@ -303,7 +291,8 @@
 
         <div class="separateur"></div>
 
-        <div id="contact" class="section s4">
+        <div id="contact"
+             class="section s4">
                 <h4>Contact</h4>
             <div class="inner">
                 <div class="coll_one">

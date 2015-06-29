@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!-- This file holds the setup configuration for the portal_javascripts tool.
+     -->
+
+<object name="portal_javascripts">
+
+    <javascript cacheable="True"
+                compression="safe"
+                cookable="True"
+                enabled="True"
+                expression=""
+                id="++resource++fastclick.js"
+                inline="False"/>
+
+    <javascript cacheable="True"
+                compression="safe"
+                cookable="True"
+                enabled="True"
+                expression=""
+                id="++resource++fixed-responsive-nav.js"
+                inline="False"/>
+
+    <javascript cacheable="True"
+                compression="safe"
+                cookable="True"
+                enabled="True"
+                expression=""
+                id="++resource++jquery.localscroll-1.2.7-min.js"
+                inline="False"/>
+
+    <javascript cacheable="True"
+                compression="safe"
+                cookable="True"
+                enabled="True"
+                expression=""
+                id="++resource++jquery.parallax-1.1.3.js"
+                inline="False"/>
+
+    <javascript cacheable="True"
+                compression="safe"
+                cookable="True"
+                enabled="True"
+                expression=""
+                id="++resource++jquery.scrollTo-1.4.2-min.js"
+                inline="False"/>
+
+    <javascript cacheable="True"
+                compression="safe"
+                cookable="True"
+                enabled="True"
+                expression=""
+                id="++resource++responsive-nav.js"
+                inline="False"/>
+
+    <javascript cacheable="True"
+                compression="safe"
+                cookable="True"
+                enabled="True"
+                expression=""
+                id="++resource++script.js"
+                inline="False"/>
+
+    <javascript cacheable="True"
+                compression="safe"
+                cookable="True"
+                enabled="True"
+                expression=""
+                id="++resource++scroll.js"
+                inline="False"/>
+
+</object>

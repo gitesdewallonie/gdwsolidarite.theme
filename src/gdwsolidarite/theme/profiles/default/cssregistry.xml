@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <object name="portal_css">
 
-    <stylesheet title="Theme package for Action Solidarite one page site Styles"
+    <stylesheet title="Css for static page for Action Solidarite one page site Styles"
                 id="++theme++gdwsolidarite.theme/css/style.css"
                 media="screen"
                 rel="stylesheet"
@@ -12,5 +12,42 @@
                 enabled="1"
                 applyPrefix="True"
                 expression="request/HTTP_X_THEME_ENABLED | nothing"/>
+
+    <stylesheet title="CSS pour Navigation Responsive avec Hamburger Menu"
+                id="navigation.css"
+                media="screen"
+                rel="stylesheet"
+                rendering="import"
+                cacheable="True"
+                compression="safe"
+                cookable="True"
+                enabled="1"
+                applyPrefix="True"
+                expression="request/HTTP_X_THEME_ENABLED | nothing"/>
+
+    <stylesheet title="CSS pour les formulaire"
+                id="formulaire.css"
+                media="screen"
+                rel="stylesheet"
+                rendering="import"
+                cacheable="True"
+                compression="safe"
+                cookable="True"
+                enabled="1"
+                applyPrefix="True"
+                expression="request/HTTP_X_THEME_ENABLED | nothing"/>
+
+    <stylesheet title="CSS pour le responsive"
+                id="responsive.css"
+                media="screen"
+                rel="stylesheet"
+                rendering="import"
+                cacheable="True"
+                compression="safe"
+                cookable="True"
+                enabled="1"
+                applyPrefix="True"
+                expression="request/HTTP_X_THEME_ENABLED | nothing"/>
+
 
 </object>

@@ -1,0 +1,58 @@
+/* 
+AFFINITIC JUIN 2015
+LES FONTS 
+:-)
+*/
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('++theme++gdwsolidarite.theme/fonts/quicksand-light.eot');
+    src: url('++theme++gdwsolidarite.theme/fonts/quicksand-light.eot?#iefix') format('embedded-opentype'),
+         url('++theme++gdwsolidarite.theme/fonts/quicksand-light.woff') format('woff'),
+         url('++theme++gdwsolidarite.theme/fonts/quicksand-light.ttf') format('truetype'),
+         url('++theme++gdwsolidarite.theme/fonts/quicksand-light.svg#quicksandlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('++theme++gdwsolidarite.theme/fonts/quicksand-regular.eot');
+    src: url('++theme++gdwsolidarite.theme/fonts/quicksand-regular.eot?#iefix') format('embedded-opentype'),
+         url('++theme++gdwsolidarite.theme/fonts/quicksand-regular.woff') format('woff'),
+         url('++theme++gdwsolidarite.theme/fonts/quicksand-regular.ttf') format('truetype'),
+         url('++theme++gdwsolidarite.theme/fonts/quicksand-regular.svg#quicksandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandbold';
+    src: url('++theme++gdwsolidarite.theme/fonts/quicksand-bold.eot');
+    src: url('++theme++gdwsolidarite.theme/fonts/quicksand-bold.eot?#iefix') format('embedded-opentype'),
+         url('++theme++gdwsolidarite.theme/fonts/quicksand-bold.woff') format('woff'),
+         url('++theme++gdwsolidarite.theme/fonts/quicksand-bold.ttf') format('truetype'),
+         url('++theme++gdwsolidarite.theme/fonts/quicksand-bold.svg#quicksandbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: "responsivenav";
+  src:url("++theme++gdwsolidarite.theme/fonts/responsivenav.eot");
+  src:url("++theme++gdwsolidarite.theme/fonts/responsivenav.eot?#iefix") format("embedded-opentype"),
+      url("++theme++gdwsolidarite.theme/fonts/responsivenav.ttf") format("truetype"),
+      url("++theme++gdwsolidarite.theme/fonts/responsivenav.woff") format("woff"),
+      url("++theme++gdwsolidarite.theme/fonts/responsivenav.svg#responsivenav") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

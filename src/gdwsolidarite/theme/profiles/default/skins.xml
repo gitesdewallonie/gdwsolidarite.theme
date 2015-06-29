@@ -7,10 +7,15 @@
     <object name="gdwsolidarite_theme_images"
             meta_type="Filesystem Directory View"
             directory="gdwsolidarite.theme:skins/gdwsolidarite_theme_images"/>
+    <object name="gdwsolidarite_theme_style"
+            meta_type="Filesystem Directory View"
+            directory="gdwsolidarite.theme:skins/gdwsolidarite_theme_style"/>
 
     <skin-path name="Theme package for Action Solidarite one page site"
                based-on="Sunburst Theme">
         <layer name="gdwsolidarite_theme_images"
+               insert-after="custom"/>
+        <layer name="gdwsolidarite_theme_style"
                insert-after="custom"/>
 
     </skin-path>
