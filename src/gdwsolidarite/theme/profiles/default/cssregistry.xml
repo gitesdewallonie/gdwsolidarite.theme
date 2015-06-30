@@ -2,7 +2,7 @@
 <object name="portal_css">
 
     <stylesheet title="Css for static page for Action Solidarite one page site Styles"
-                id="++theme++gdwsolidarite.theme/css/style.css"
+                id="style.css"
                 media="screen"
                 rel="stylesheet"
                 rendering="import"

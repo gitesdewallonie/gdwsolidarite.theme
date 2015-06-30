@@ -1,0 +1,325 @@
+/*
+AFFINITIC JUIN 2015
+GDW SOLIDARITE
+*/
+
+
+@import url("reset.css");
+@import url("fonts.css");
+
+
+*{
+box-sizing:border-box;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+}
+
+html, body{
+-webkit-text-size-adjust:100%;
+-moz-text-size-adjust:100%;
+-o-text-size-adjust:100%;
+height:100%;
+}
+
+body{
+font-family:'quicksandregular', sans-serif;
+margin:0;
+padding:0;
+color:#4b4b4b;
+background:url(background_body.png) #f3efe8 repeat-y 80% top;
+}
+
+.stop_ft{
+clear:both;
+}
+
+#wrapper{
+width:100%;
+height:100%;
+z-index:10;
+position:relative;
+margin:0 auto;
+padding:0;
+}
+
+.section {
+width:100%;
+height:100%;
+z-index:10;
+position:relative;
+margin:0 auto;
+padding:0 0 20px 0;
+
+}
+
+article.inner{
+width:90%;
+margin:0 auto;
+}
+
+article.inner p{
+width:80%;
+margin:auto;
+text-align:justify;
+}
+
+.separateur{
+position:relative;
+z-index:10;
+display:block;
+width:95%;
+height:200px;
+background-color:#c80c10;
+margin:auto;
+}
+
+
+
+#accueil{
+background:url(background_00_accueil.png);
+background-size:cover;
+width:95%;
+height:100%;
+margin:0 auto;
+color:#fff;
+}
+
+#accueil article{
+position:relative;
+top:25%;
+background-color:rgba(50,50,50,0.6);
+border-top:1px solid #c80c10;
+border-bottom:1px solid #c80c10;
+width:100%;
+height:50%;
+padding-top:10%;
+}
+
+#accueil h1, h2, h3{
+text-align:center;
+width:100%;
+}
+
+#accueil h1{
+font-size:2.2em;
+text-transform:uppercase;
+border-bottom:1px solid #ecf0f1;
+padding:0.8em 0;
+
+}
+
+#accueil h2{
+margin-top:6%;
+font-size:1.8em;
+}
+
+#accueil h3{
+margin-top:2%;
+font-size:1.2em;
+}
+
+#accueil span{
+color:#c0392b;
+}
+
+h4{
+text-align:center;
+background:#b1aa9d;
+color:#fbfcfd;
+font-size:1.8em;
+}
+
+#action,
+#partenaire1,
+#partenaire2,
+#hebergement,
+#federation,
+#reseaux-sociaux{
+width:95%;
+margin:0 auto;
+background-size:cover;
+}
+
+#action{
+background:url(background_01_action.jpg) center 0 no-repeat fixed;
+background-size:cover;
+
+}
+#partenaire1{
+background:url(background_02_partenaire.jpg) center 0 no-repeat fixed;
+background-size:cover;
+
+}
+#hebergement{
+background:url(background_03_hebergement.jpg) center 0 no-repeat fixed;
+background-size:cover;
+
+}
+
+
+#action a{
+color:#4b4b4b;
+font-family:"quicksandlight", sans-serif;
+border:1px solid #4b4b4b;
+padding:5px;
+text-transform:uppercase;
+-webkit-transition:all .6s ease-in;
+-moz-transition:all .6s ease-in;
+}
+
+#action a:hover, #portfolio a.externe:hover{
+background:#4b4b4b;
+color:#ecf0f1;
+-webkit-transition:all .6s ease-in;
+-moz-transition:all .6s ease-in;
+}
+
+
+#action h5{
+text-transform:uppercase;
+}
+
+#action hr{
+display:block;
+width:100px;
+height:3px;
+background:#4b4b4b;
+position:relative;
+left:50%;
+margin-left:-50px;
+bottom:0;
+}
+
+#action span{
+color:#c0392b;
+font-family:"quicksandbold", sans-serif;
+}
+
+
+
+
+#reseaux-sociaux #social-network{
+margin:0px auto;
+padding:0px;
+width:60%;
+}
+
+#reseaux-sociaux #social-network li{
+display:inline-block;
+margin-right:32px;
+text-align:center;
+}
+
+#reseaux-sociaux #social-network li:last-child{
+margin-right:0;
+}
+
+#reseaux-sociaux #social-network a{
+display:block;
+height:75px;
+width:75px;
+}
+
+#reseaux-sociaux #social-network .social{
+}
+
+#reseaux-sociaux #social-network #twitter,
+#reseaux-sociaux #social-network #facebook,
+#reseaux-sociaux #social-network #lindekin,
+#reseaux-sociaux #social-network #pinterest{
+}
+
+#reseaux-sociaux #social-network #facebook{
+background:url(reseaux_sociaux.png) no-repeat;
+background-position:-5px -8px;
+}
+
+#reseaux-sociaux #social-network #facebook:hover{
+background-position:-5px -85px;
+}
+
+#reseaux-sociaux #google-plus{
+background:url(reseaux_sociaux.png) no-repeat;
+background-position:-160px -8px;
+}
+
+#reseaux-sociaux #google-plus:hover{
+background-position:-160px -85px;
+}
+
+#reseaux-sociaux #twitter{
+background:url(reseaux_sociaux.png) no-repeat;
+background-position:-80px -8px;
+}
+
+#reseaux-sociaux #twitter:hover{
+background-position:-80px -85px;
+}
+
+#reseaux-sociaux .mail{
+background:url(reseaux_sociaux.png) no-repeat;
+background-position:center top;
+}
+
+#reseaux-sociaux .mail:hover{
+background-position:center bottom;
+}
+
+
+#contact{
+background:url(background.png) repeat;
+width:95%;
+margin:0 auto;
+}
+
+#contact h5{
+text-transform:uppercase;
+color:#ecf0f1;
+text-align:center;
+}
+
+#contact hr{
+display:block;
+width:100px;
+height:3px;
+background:#ecf0f1;
+position:relative;
+left:50%;
+margin-left:-50px;
+bottom:0;
+}
+
+
+
+
+footer{
+height:40px;
+width:95%;
+position:relative;
+left:2.5%;
+background:#3b3b3b;
+color:#ecf0f1;
+}
+
+footer p{
+text-align:center;
+line-height:40px;
+font-size:0.8em;
+}
+
+footer a{
+color:#ecf0f1;
+text-decoration:underline;
+}
+
+
+::selection{
+background-color:#4b4b4b;
+color:#c0392b;
+}
+
+::-moz-selection {
+background-color:#4b4b4b;
+color:#c0392b;
+}
+

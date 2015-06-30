@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    alert('coucou');
     $('#accueil').parallax("center",2, true);
     $('#action').parallax("center",0.5, true);
     $('#partenaire1').parallax("center",0.5, true);
