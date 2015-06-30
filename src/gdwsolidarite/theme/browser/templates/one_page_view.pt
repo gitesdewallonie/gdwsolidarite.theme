@@ -10,6 +10,7 @@
           content="Affinitic" />
     <link rel="icon"
           href="images/favicon_gdw.ico"/>
+
     <link href="style.css"
           rel="stylesheet"
           type="text/css" />
@@ -22,12 +23,12 @@
     <link href="responsive.css"
           rel="stylesheet"
           type="text/css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-    <script src="scroll.js"></script>
-    <script src="fastclick.js"></script>
-    <script src="responsive-nav.js"></script>
-    <script src="jquery.parallax-1.1.3.js"></script>
-    <script src="script.js"></script>
+
+    <script src="++resource++scroll.js"></script>
+    <script src="++resource++fastclick.js"></script>
+    <script src="++resource++responsive-nav.js"></script>
+    <script src="++resource++script.js"></script>
+
     <title>GDW</title>
 </head>
 
@@ -48,12 +49,10 @@
                 <ul>
                   <li class="menu-item active"><a href="#accueil" data-scroll>Accueil</a></li>
                   <li class="menu-item"><a href="#action" data-scroll>Action</a></li>
-                  <li class="menu-item"><a href="#partenaire1" data-scroll>Partenaires</a></li>
-                  <li class="menu-item"><a href="#partenaire2" data-scroll>Partenaires</a></li>
                   <li class="menu-item"><a href="#hebergement" data-scroll>Hébergements</a></li>
-                  <li class="menu-item"><a href="#federation" data-scroll>Fédération</a></li>
+                  <li class="menu-item"><a href="#partenaire" data-scroll>Partenaires</a></li>
+                  <li class="menu-item"><a href="#a-propos" data-scroll>A propos de nous</a></li>
                   <li class="menu-item"><a href="#reseaux-sociaux" data-scroll>Nous suivre</a></li>
-                  <li class="menu-item"><a href="#contact" data-scroll>Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -61,20 +60,17 @@
         <section id="accueil"
                  class="section s1">
             <article>
-                <h1>Tous à la campagne</h1>
-                <h2>Gîtes et Chambres d'hôtes de Wallonie</h2>
-                <h3>En partenariat avec le <span>R</span>éseau wallon de lutte contre la pauvreté et Attractions <span>&</span> Tourismes</h3>
+                <h1>Un gîte pour tous</h1>
+                <h2>Une action sociale et solidaire de la Fédération des Gîtes de Wallonie</h2>
+                <h3>En partenariat avec le <span>R</span>éseau Wallon de Lutte contre la Pauvreté et <span>A</span>ttractions & Tourisme</h3>
             </article>
         </section><!-- end accueil -->
 
-        <div class="separateur"></div>
+        <div id="separateur_01" class="separateur"></div>
 
         <section id="action"
                  class="section s2">
             <h4>Action</h4>
-            <a href=""
-               tal:condition="python: member.has_role('Manager')"
-               tal:attributes="href string:${portal_url}/action/edit">[Modifier cette zone]</a>
             <article class="inner">
                 <div class="coll_one"
                      tal:define="content python: view.getPageText('action')"
@@ -102,16 +98,16 @@
                     <div class="stop_ft"></div>
                 </div><!-- end coll_one -->
             </article><!-- end inner -->
-        </section><!-- end action -->
-
-        <div class="separateur"></div>
-
-        <section id="partenaire1"
-                 class="section s3">
-            <h4>partenaire 1</h4>
             <a href=""
                tal:condition="python: member.has_role('Manager')"
-               tal:attributes="href string:${portal_url}/partenaires/edit">[Modifier cette zone]</a>
+               tal:attributes="href string:${portal_url}/action/edit">[Modifier cette zone]</a>
+        </section><!-- end action -->
+
+        <div id="separateur_02" class="separateur"></div>
+
+        <section id="partenaire"
+                 class="section s3">
+            <h4>partenaire 1</h4>
             <article class="inner">
                 <div class="coll_one"
                      tal:define="content python: view.getPageText('partenaires')"
@@ -139,53 +135,16 @@
                     <div class="stop_ft"></div>
                 </div><!-- end coll_one -->
             </article><!-- end inner -->
-        </section><!-- end partenaire1 -->
-
-        <div class="separateur"></div>
-
-        <section id="partenaire2"
-                 class="section s4">
-            <h4>partenaire 2</h4>
             <a href=""
                tal:condition="python: member.has_role('Manager')"
-               tal:attributes="href string:${portal_url}/partenaires2/edit">[Modifier cette zone]</a>
-            <article class="inner">
-                <div class="coll_one"
-                     tal:define="content python: view.getPageText('partenaires2')"
-                     tal:content="structure content">
-                    <h5>Nos Partenaires 2</h5>
-                    <hr />
-                    <p>
-                    Eodem tempore Serenianus ex duce, cuius ignavia populatam
-                    in Phoenice Celsen ante rettulimus, pulsatae maiestatis
-                    imperii reus iure postulatus ac lege, incertum qua potuit
-                    suffragatione absolvi, aperte convictus familiarem suum
-                    cum pileo, quo caput operiebat, incantato vetitis artibus
-                    ad templum misisse fatidicum, quaeritatum expresse an ei
-                    firmum portenderetur imperium, ut cupiebat, et cunctum.
-                    </p>
-                    <p>
-                    Eodem tempore Serenianus ex duce, cuius ignavia populatam
-                    in Phoenice Celsen ante rettulimus, pulsatae maiestatis
-                    imperii reus iure postulatus ac lege, incertum qua potuit
-                    suffragatione absolvi, aperte convictus familiarem suum
-                    cum pileo, quo caput operiebat, incantato vetitis artibus
-                    ad templum misisse fatidicum, quaeritatum expresse an ei
-                    firmum portenderetur imperium, ut cupiebat, et cunctum.
-                    </p>
-                    <div class="stop_ft"></div><!-- end stop ft -->
-                </div><!-- end coll_one -->
-            </article><!-- end inner -->
-        </section><!-- end partenaire2 -->
+               tal:attributes="href string:${portal_url}/partenaires/edit">[Modifier cette zone]</a>
+        </section><!-- end partenaire1 -->
 
-        <div class="separateur"></div>
+        <div id="separateur_03" class="separateur"></div>
 
         <section id="hebergement"
                  class="section s4">
             <h4>Hébergements</h4>
-            <a href=""
-               tal:condition="python: member.has_role('Manager')"
-               tal:attributes="href string:${portal_url}/hebergements/edit">[Modifier cette zone]</a>
             <article class="inner">
                 <div class="coll_one"
                      tal:define="content python: view.getPageText('hebergements')"
@@ -213,46 +172,30 @@
                     <div class="stop_ft"></div><!-- end stop ft -->
                 </div><!-- end coll_one -->
             </article><!-- end inner -->
-        </section><!-- end hebergements -->
-
-        <div class="separateur"></div>
-
-        <section id="federation"
-                 class="section s4">
-            <h4>Fédération</h4>
             <a href=""
                tal:condition="python: member.has_role('Manager')"
-               tal:attributes="href string:${portal_url}/federation/edit">[Modifier cette zone]</a>
+               tal:attributes="href string:${portal_url}/hebergements/edit">[Modifier cette zone]</a>
+        </section><!-- end hebergements -->
+
+        <div id="separateur_04" class="separateur"></div>
+
+        <section id="a-propos"
+                 class="section s4">
+            <h4>A propos de nous</h4>
             <article class="inner">
                 <div class="coll_one"
-                     tal:define="content python: view.getPageText('federation')"
+                     tal:define="content python: view.getPageText('a-propos')"
                      tal:content="structure content">
-                    <h5>La fédération des Gîtes de Wallonie</h5>
-                    <hr />
-                    <p>
-                    Eodem tempore Serenianus ex duce, cuius ignavia populatam
-                    in Phoenice Celsen ante rettulimus, pulsatae maiestatis
-                    imperii reus iure postulatus ac lege, incertum qua potuit
-                    suffragatione absolvi, aperte convictus familiarem suum
-                    cum pileo, quo caput operiebat, incantato vetitis artibus
-                    ad templum misisse fatidicum, quaeritatum expresse an ei
-                    firmum portenderetur imperium, ut cupiebat, et cunctum.
-                    </p>
-                    <p>
-                    Eodem tempore Serenianus ex duce, cuius ignavia populatam
-                    in Phoenice Celsen ante rettulimus, pulsatae maiestatis
-                    imperii reus iure postulatus ac lege, incertum qua potuit
-                    suffragatione absolvi, aperte convictus familiarem suum
-                    cum pileo, quo caput operiebat, incantato vetitis artibus
-                    ad templum misisse fatidicum, quaeritatum expresse an ei
-                    firmum portenderetur imperium, ut cupiebat, et cunctum.
-                    </p>
-                    <div class="stop_ft"></div><!-- end stop ft -->
                 </div><!-- end coll_one -->
             </article><!-- end inner -->
-        </section><!-- end federation -->
+            <a href=""
+               tal:condition="python: member.has_role('Manager')"
+               tal:attributes="href string:${portal_url}/a-propos/edit">[Modifier cette zone]</a>
+        </section><!-- end contact -->
 
-        <div class="separateur"></div>
+
+        <div id="separateur_05" class="separateur"></div>
+
 
         <section id="reseaux-sociaux"
                  class="section s4">
@@ -266,24 +209,6 @@
                      tal:content="structure content">
                     <h5>Suivez nous</h5>
                     <hr />
-                    <p>
-                    Eodem tempore Serenianus ex duce, cuius ignavia populatam
-                    in Phoenice Celsen ante rettulimus, pulsatae maiestatis
-                    imperii reus iure postulatus ac lege, incertum qua potuit
-                    suffragatione absolvi, aperte convictus familiarem suum
-                    cum pileo, quo caput operiebat, incantato vetitis artibus
-                    ad templum misisse fatidicum, quaeritatum expresse an ei
-                    firmum portenderetur imperium, ut cupiebat, et cunctum.
-                    </p>
-                    <p>
-                    Eodem tempore Serenianus ex duce, cuius ignavia populatam
-                    in Phoenice Celsen ante rettulimus, pulsatae maiestatis
-                    imperii reus iure postulatus ac lege, incertum qua potuit
-                    suffragatione absolvi, aperte convictus familiarem suum
-                    cum pileo, quo caput operiebat, incantato vetitis artibus
-                    ad templum misisse fatidicum, quaeritatum expresse an ei
-                    firmum portenderetur imperium, ut cupiebat, et cunctum.
-                    </p>
                     <div class="stop_ft"></div><!-- end stop ft -->
                     <ul id="social-network">
                         <li><a href=""
@@ -307,68 +232,16 @@
             </article><!-- end inner -->
         </section><!-- end reseaux sociaux -->
 
-        <div class="separateur"></div>
-
-        <div id="contact"
-             class="section s4">
-                <h4>Contact</h4>
-            <div class="inner">
-                <div class="coll_one">
-                    <h5>Entrer en contact</h5>
-                    <hr />
-                    <!-- PHP FORMULAIRE -->
-                    <form action=""
-                          method="POST"
-                          class="form"
-                          id="form1">
-
-                        <p class="name">
-                            <input required name="name"
-                                   type="text"
-                                   class="validate[required,custom[onlyLetter],length[0,100]] feedback-input"
-                                   placeholder="Je m'appelle... "
-                                   id="name"
-                                   value=""
-                            />
-                        </p>
-
-                        <p class="email">
-                            <input required name="email"
-                                   type="email"
-                                   class="validate[required,custom[email]] feedback-input"
-                                   placeholder="Je te laisse mon email..."
-                                   id="email"
-                                   value=""
-                            />
-                        </p>
-
-                        <p class="text">
-                            <textarea required name="text"
-                                      class="validate[required,length[6,300]] feedback-input"
-                                      placeholder="Je voulais te demander..."
-                                      id="comment"></textarea>
-                        </p>
-
-                        <div class="submit">
-                            <input type="submit"
-                                   value="A BIENTOT" id="button-blue"/>
-                            <div class="ease"></div>
-                        </div>
-
-                    </form><!-- end formulaire -->
-                    <div class="stop_ft"></div><!-- end stop ft -->
-                </div><!-- end coll_one -->
-            </div><!-- end inner -->
-        </div><!-- end contact -->
 
 
         <footer>
-            <p>Gîtes de Wallonie - 2015. <a href="https://www.affinitic.be" target="_blank">Développé par Affinitic</a></p>
+            <p>LES LOGOS des institutions</p>
+            <p>Fédération des Gîtes de Wallonie - 2015. <a href="https://www.affinitic.be" target="_blank">Développé par Affinitic</a></p>
         </footer>
 
     </div><!-- end contener -->
 
-    <script src="js/nav/fixed-responsive-nav.js"></script>
+    <script src="++resource++fixed-responsive-nav.js"></script>
 
 </body>
 </html>
