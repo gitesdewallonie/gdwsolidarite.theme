@@ -9,22 +9,6 @@
                 cookable="True"
                 enabled="True"
                 expression=""
-                id="++resource++fastclick.js"
-                inline="False"/>
-
-    <javascript cacheable="True"
-                compression="safe"
-                cookable="True"
-                enabled="True"
-                expression=""
-                id="++resource++fixed-responsive-nav.js"
-                inline="False"/>
-
-    <javascript cacheable="True"
-                compression="safe"
-                cookable="True"
-                enabled="True"
-                expression=""
                 id="++resource++jquery.localscroll-1.2.7-min.js"
                 inline="False"/>
 
@@ -49,6 +33,22 @@
                 cookable="True"
                 enabled="True"
                 expression=""
+                id="++resource++scroll.js"
+                inline="False"/>
+
+    <javascript cacheable="True"
+                compression="safe"
+                cookable="True"
+                enabled="True"
+                expression=""
+                id="++resource++fastclick.js"
+                inline="False"/>
+
+    <javascript cacheable="True"
+                compression="safe"
+                cookable="True"
+                enabled="True"
+                expression=""
                 id="++resource++responsive-nav.js"
                 inline="False"/>
 
@@ -58,14 +58,6 @@
                 enabled="True"
                 expression=""
                 id="++resource++script.js"
-                inline="False"/>
-
-    <javascript cacheable="True"
-                compression="safe"
-                cookable="True"
-                enabled="True"
-                expression=""
-                id="++resource++scroll.js"
                 inline="False"/>
 
 </object>

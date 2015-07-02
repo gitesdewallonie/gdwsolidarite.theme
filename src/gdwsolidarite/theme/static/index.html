@@ -11,215 +11,25 @@
     <link rel="icon"
           href="images/favicon_gdw.ico"/>
 
-    <link href="style.css"
-          rel="stylesheet"
-          type="text/css" />
-    <link href="navigation.css"
-          rel="stylesheet"
-          type="text/css" />
-    <link href="formulaire.css"
-          rel="stylesheet"
-          type="text/css" />
-    <link href="responsive.css"
-          rel="stylesheet"
-          type="text/css" />
-
-    <script src="++resource++scroll.js"></script>
-    <script src="++resource++fastclick.js"></script>
-    <script src="++resource++responsive-nav.js"></script>
-    <script src="++resource++script.js"></script>
-
     <title>GDW</title>
 </head>
 
-<!-- -->
 
 <body>
 
 <!-- MENU -->
 
-    <div id="wrapper"
-         tal:define="portal_url context/@@plone_portal_state/portal_url;
-                     member context/@@plone_portal_state/member">
+    <div id="wrapper">
+
         <header>
             <div id="logo" data-scroll>
-                <a href="#accueil"></a>
+                <a href="/"></a>
             </div>
-            <nav class="nav-collapse">
-                <ul>
-                  <li class="menu-item active"><a href="#accueil" data-scroll>Accueil</a></li>
-                  <li class="menu-item"><a href="#action" data-scroll>Action</a></li>
-                  <li class="menu-item"><a href="#partenaire" data-scroll>Partenaires</a></li>
-                  <li class="menu-item"><a href="#hebergement" data-scroll>Hébergements</a></li>
-                  <li class="menu-item"><a href="#a-propos" data-scroll>A propos de nous</a></li>
-                  <li class="menu-item"><a href="#reseaux-sociaux" data-scroll>Nous suivre</a></li>
-                </ul>
-            </nav>
         </header>
 
-        <section id="accueil"
-                 class="section s1">
-            <article>
-                <h1>Un gîte pour tous</h1>
-                <h2>Une action sociale et solidaire de la Fédération des Gîtes de Wallonie</h2>
-                <h3>En partenariat avec le <span>R</span>éseau Wallon de Lutte contre la Pauvreté et <span>A</span>ttractions & Tourisme</h3>
-            </article>
-        </section><!-- end accueil -->
-
-        <div id="separateur_01" class="separateur"></div>
-
-        <section id="action"
-                 class="section s2">
-            <h4>Action</h4>
-            <article class="inner coll_one"
-                     tal:define="content python: view.getPageText('action')"
-                     tal:content="structure content">
-                <h5>Notre action en quelques mots</h5>
-                <hr />
-                <p>
-                Eodem tempore Serenianus ex duce, cuius ignavia populatam
-                in Phoenice Celsen ante rettulimus, pulsatae maiestatis
-                imperii reus iure postulatus ac lege, incertum qua potuit
-                suffragatione absolvi, aperte convictus familiarem suum
-                cum pileo, quo caput operiebat, incantato vetitis artibus
-                ad templum misisse fatidicum, quaeritatum expresse an ei
-                firmum portenderetur imperium, ut cupiebat, et cunctum.
-                </p>
-                <p>
-                Eodem tempore Serenianus ex duce, cuius ignavia populatam
-                in Phoenice Celsen ante rettulimus, pulsatae maiestatis
-                imperii reus iure postulatus ac lege, incertum qua potuit
-                suffragatione absolvi, aperte convictus familiarem suum
-                cum pileo, quo caput operiebat, incantato vetitis artibus
-                ad templum misisse fatidicum, quaeritatum expresse an ei
-                firmum portenderetur imperium, ut cupiebat, et cunctum.
-                </p>
-            </article><!-- end inner -->
-            <a href=""
-               tal:condition="python: member.has_role('Manager')"
-               tal:attributes="href string:${portal_url}/action/edit">[Modifier cette zone]</a>
-        </section><!-- end action -->
-
-        <div id="separateur_02" class="separateur"></div>
-
-        <section id="partenaire"
-                 class="section s3">
-            <h4>partenaire</h4>
-            <article class="inner coll_one"
-                     tal:define="content python: view.getPageText('partenaires')"
-                     tal:content="structure content">
-                <h5>Nos partenaires 1</h5>
-                <hr />
-                <p>
-                Eodem tempore Serenianus ex duce, cuius ignavia populatam
-                in Phoenice Celsen ante rettulimus, pulsatae maiestatis
-                imperii reus iure postulatus ac lege, incertum qua potuit
-                suffragatione absolvi, aperte convictus familiarem suum
-                cum pileo, quo caput operiebat, incantato vetitis artibus
-                ad templum misisse fatidicum, quaeritatum expresse an ei
-                firmum portenderetur imperium, ut cupiebat, et cunctum.
-                </p>
-                <p>
-                Eodem tempore Serenianus ex duce, cuius ignavia populatam
-                in Phoenice Celsen ante rettulimus, pulsatae maiestatis
-                imperii reus iure postulatus ac lege, incertum qua potuit
-                suffragatione absolvi, aperte convictus familiarem suum
-                cum pileo, quo caput operiebat, incantato vetitis artibus
-                ad templum misisse fatidicum, quaeritatum expresse an ei
-                firmum portenderetur imperium, ut cupiebat, et cunctum.
-                </p>
-            </article><!-- end inner -->
-            <a href=""
-               tal:condition="python: member.has_role('Manager')"
-               tal:attributes="href string:${portal_url}/partenaires/edit">[Modifier cette zone]</a>
-        </section><!-- end partenaire1 -->
-
-        <div id="separateur_03" class="separateur"></div>
-
-        <section id="hebergement"
-                 class="section s4">
-            <h4>Hébergements</h4>
-            <article class="inner coll_one"
-                     tal:define="content python: view.getPageText('hebergements')"
-                     tal:content="structure content">
-                <h5>Les hébergements qui participent</h5>
-                <hr />
-                <p>
-                Eodem tempore Serenianus ex duce, cuius ignavia populatam
-                in Phoenice Celsen ante rettulimus, pulsatae maiestatis
-                imperii reus iure postulatus ac lege, incertum qua potuit
-                suffragatione absolvi, aperte convictus familiarem suum
-                cum pileo, quo caput operiebat, incantato vetitis artibus
-                ad templum misisse fatidicum, quaeritatum expresse an ei
-                firmum portenderetur imperium, ut cupiebat, et cunctum.
-                </p>
-                <p>
-                Eodem tempore Serenianus ex duce, cuius ignavia populatam
-                in Phoenice Celsen ante rettulimus, pulsatae maiestatis
-                imperii reus iure postulatus ac lege, incertum qua potuit
-                suffragatione absolvi, aperte convictus familiarem suum
-                cum pileo, quo caput operiebat, incantato vetitis artibus
-                ad templum misisse fatidicum, quaeritatum expresse an ei
-                firmum portenderetur imperium, ut cupiebat, et cunctum.
-                </p>
-            </article><!-- end inner -->
-            <a href=""
-               tal:condition="python: member.has_role('Manager')"
-               tal:attributes="href string:${portal_url}/hebergements/edit">[Modifier cette zone]</a>
-        </section><!-- end hebergements -->
-
-        <div id="separateur_04" class="separateur"></div>
-
-        <section id="a-propos"
-                 class="section s4">
-            <h4>A propos de nous</h4>
-            <article class="inner coll_one"
-                     tal:define="content python: view.getPageText('a-propos')"
-                     tal:content="structure content">
-            </article><!-- end inner -->
-            <a href=""
-               tal:condition="python: member.has_role('Manager')"
-               tal:attributes="href string:${portal_url}/a-propos/edit">[Modifier cette zone]</a>
-        </section><!-- end contact -->
-
-
-        <div id="separateur_05" class="separateur"></div>
-
-
-        <section id="reseaux-sociaux"
-                 class="section s4">
-            <h4>Nous suivre</h4>
-            <a href=""
-               tal:condition="python: member.has_role('Manager')"
-               tal:attributes="href string:${portal_url}/nous-suivre/edit">[Modifier cette zone]</a>
-            <article class="inner coll_one"
-                     tal:define="content python: view.getPageText('nous-suivre')"
-                     tal:content="structure content">
-                <h5>Suivez nous</h5>
-                <hr />
-                <div class="stop_ft"></div><!-- end stop ft -->
-                <ul id="social-network">
-                    <li><a href=""
-                           id="facebook"
-                           class="social"
-                           target="_blank"></a></li>
-                    <li><a href=""
-                           id="google-plus"
-                           class="social"
-                           target="_blank"></a></li>
-                    <li><a href=""
-                           id="twitter"
-                           class="social"
-                           target="_blank"></a></li>
-                    <li><a href=""
-                           id="pinterest"
-                           class="social"
-                           target="_blank"></a></li>
-                    </ul>
-            </article><!-- end inner -->
-        </section><!-- end reseaux sociaux -->
-
-
+        <section id="main-content">
+            Content
+        </section>
 
         <footer>
             <p>LES LOGOS des institutions</p>

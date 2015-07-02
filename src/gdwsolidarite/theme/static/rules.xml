@@ -32,34 +32,20 @@
     <copy attributes="xmlns lang xml:lang" content="/html" theme="/html" />
     <copy attributes="class id dir" content="/html/body" theme="/html/body" />
 
-    <replace css:content-children="#portal-siteactions"
-             css:theme-children="#portal-siteactions" />
+    <drop css:content="#edit-bar" />
 
-    <replace css:content-children="#portal-personaltools-wrapper"
-             css:theme-children="#personal-tools" />
-        
-    <replace css:content-children="#portal-logo"
-             css:theme-children="#portal-logo" />
+    <rules css:if-content="#one-content">
+        <replace css:content-children="header"
+                 css:theme-children="header" />
+        <replace css:content-children="#one-content"
+                 css:theme="#main-content"
+                 css:if-content="#one-content"/>
+    </rules>
 
-    <replace css:content-children="#portal-column-one"
-             css:theme-children="#left-column" />
-
-    <replace css:content-children="#portal-column-content"
-             css:theme-children="#main-column"
-             if="$have_portlets" />
-    
-    <replace css:content-children="#portal-column-content"
-             css:theme-children="#main-column-large"
-             if="$have_no_portlet" />
-    
-    <replace css:content-children="#portal-colophon"
-             css:theme-children="#colophon" />
-
-    <replace css:content-children="#portal-footer"
-             css:theme-children="#footer" />
-
-    <drop css:theme="#left-column" if="$have_no_portlet" />
-    <drop css:theme="#main-column" if="$have_no_portlet" />
-    <drop css:theme="#main-column-large" if="$have_portlets" />
+    <rules css:if-not-content="#one-content">
+        <replace css:content-children="#portal-columns"
+                 css:theme-children="#main-content"
+                 css:if-content="#portal-columns"/>
+    </rules>
 
 </rules>
