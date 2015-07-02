@@ -24,6 +24,11 @@
         margin-top: 50px;
         }
 
+        .coll_one{
+        border:1px solid #000 !important;
+        min-height:100%;
+        }
+
         #action.coll_one,
         #partenaire.coll_one,
         #hebergement.coll_one,

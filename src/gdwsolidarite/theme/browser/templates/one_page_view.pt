@@ -49,8 +49,8 @@
                 <ul>
                   <li class="menu-item active"><a href="#accueil" data-scroll>Accueil</a></li>
                   <li class="menu-item"><a href="#action" data-scroll>Action</a></li>
-                  <li class="menu-item"><a href="#hebergement" data-scroll>Hébergements</a></li>
                   <li class="menu-item"><a href="#partenaire" data-scroll>Partenaires</a></li>
+                  <li class="menu-item"><a href="#hebergement" data-scroll>Hébergements</a></li>
                   <li class="menu-item"><a href="#a-propos" data-scroll>A propos de nous</a></li>
                   <li class="menu-item"><a href="#reseaux-sociaux" data-scroll>Nous suivre</a></li>
                 </ul>
@@ -71,32 +71,29 @@
         <section id="action"
                  class="section s2">
             <h4>Action</h4>
-            <article class="inner">
-                <div class="coll_one"
+            <article class="inner coll_one"
                      tal:define="content python: view.getPageText('action')"
                      tal:content="structure content">
-                    <h5>Notre action en quelques mots</h5>
-                    <hr />
-                    <p>
-                    Eodem tempore Serenianus ex duce, cuius ignavia populatam
-                    in Phoenice Celsen ante rettulimus, pulsatae maiestatis
-                    imperii reus iure postulatus ac lege, incertum qua potuit
-                    suffragatione absolvi, aperte convictus familiarem suum
-                    cum pileo, quo caput operiebat, incantato vetitis artibus
-                    ad templum misisse fatidicum, quaeritatum expresse an ei
-                    firmum portenderetur imperium, ut cupiebat, et cunctum.
-                    </p>
-                    <p>
-                    Eodem tempore Serenianus ex duce, cuius ignavia populatam
-                    in Phoenice Celsen ante rettulimus, pulsatae maiestatis
-                    imperii reus iure postulatus ac lege, incertum qua potuit
-                    suffragatione absolvi, aperte convictus familiarem suum
-                    cum pileo, quo caput operiebat, incantato vetitis artibus
-                    ad templum misisse fatidicum, quaeritatum expresse an ei
-                    firmum portenderetur imperium, ut cupiebat, et cunctum.
-                    </p>
-                    <div class="stop_ft"></div>
-                </div><!-- end coll_one -->
+                <h5>Notre action en quelques mots</h5>
+                <hr />
+                <p>
+                Eodem tempore Serenianus ex duce, cuius ignavia populatam
+                in Phoenice Celsen ante rettulimus, pulsatae maiestatis
+                imperii reus iure postulatus ac lege, incertum qua potuit
+                suffragatione absolvi, aperte convictus familiarem suum
+                cum pileo, quo caput operiebat, incantato vetitis artibus
+                ad templum misisse fatidicum, quaeritatum expresse an ei
+                firmum portenderetur imperium, ut cupiebat, et cunctum.
+                </p>
+                <p>
+                Eodem tempore Serenianus ex duce, cuius ignavia populatam
+                in Phoenice Celsen ante rettulimus, pulsatae maiestatis
+                imperii reus iure postulatus ac lege, incertum qua potuit
+                suffragatione absolvi, aperte convictus familiarem suum
+                cum pileo, quo caput operiebat, incantato vetitis artibus
+                ad templum misisse fatidicum, quaeritatum expresse an ei
+                firmum portenderetur imperium, ut cupiebat, et cunctum.
+                </p>
             </article><!-- end inner -->
             <a href=""
                tal:condition="python: member.has_role('Manager')"
@@ -107,33 +104,30 @@
 
         <section id="partenaire"
                  class="section s3">
-            <h4>partenaire 1</h4>
-            <article class="inner">
-                <div class="coll_one"
+            <h4>partenaire</h4>
+            <article class="inner coll_one"
                      tal:define="content python: view.getPageText('partenaires')"
                      tal:content="structure content">
-                    <h5>Nos partenaires 1</h5>
-                    <hr />
-                    <p>
-                    Eodem tempore Serenianus ex duce, cuius ignavia populatam
-                    in Phoenice Celsen ante rettulimus, pulsatae maiestatis
-                    imperii reus iure postulatus ac lege, incertum qua potuit
-                    suffragatione absolvi, aperte convictus familiarem suum
-                    cum pileo, quo caput operiebat, incantato vetitis artibus
-                    ad templum misisse fatidicum, quaeritatum expresse an ei
-                    firmum portenderetur imperium, ut cupiebat, et cunctum.
-                    </p>
-                    <p>
-                    Eodem tempore Serenianus ex duce, cuius ignavia populatam
-                    in Phoenice Celsen ante rettulimus, pulsatae maiestatis
-                    imperii reus iure postulatus ac lege, incertum qua potuit
-                    suffragatione absolvi, aperte convictus familiarem suum
-                    cum pileo, quo caput operiebat, incantato vetitis artibus
-                    ad templum misisse fatidicum, quaeritatum expresse an ei
-                    firmum portenderetur imperium, ut cupiebat, et cunctum.
-                    </p>
-                    <div class="stop_ft"></div>
-                </div><!-- end coll_one -->
+                <h5>Nos partenaires 1</h5>
+                <hr />
+                <p>
+                Eodem tempore Serenianus ex duce, cuius ignavia populatam
+                in Phoenice Celsen ante rettulimus, pulsatae maiestatis
+                imperii reus iure postulatus ac lege, incertum qua potuit
+                suffragatione absolvi, aperte convictus familiarem suum
+                cum pileo, quo caput operiebat, incantato vetitis artibus
+                ad templum misisse fatidicum, quaeritatum expresse an ei
+                firmum portenderetur imperium, ut cupiebat, et cunctum.
+                </p>
+                <p>
+                Eodem tempore Serenianus ex duce, cuius ignavia populatam
+                in Phoenice Celsen ante rettulimus, pulsatae maiestatis
+                imperii reus iure postulatus ac lege, incertum qua potuit
+                suffragatione absolvi, aperte convictus familiarem suum
+                cum pileo, quo caput operiebat, incantato vetitis artibus
+                ad templum misisse fatidicum, quaeritatum expresse an ei
+                firmum portenderetur imperium, ut cupiebat, et cunctum.
+                </p>
             </article><!-- end inner -->
             <a href=""
                tal:condition="python: member.has_role('Manager')"
@@ -145,32 +139,29 @@
         <section id="hebergement"
                  class="section s4">
             <h4>Hébergements</h4>
-            <article class="inner">
-                <div class="coll_one"
+            <article class="inner coll_one"
                      tal:define="content python: view.getPageText('hebergements')"
                      tal:content="structure content">
-                    <h5>Les hébergements qui participent</h5>
-                    <hr />
-                    <p>
-                    Eodem tempore Serenianus ex duce, cuius ignavia populatam
-                    in Phoenice Celsen ante rettulimus, pulsatae maiestatis
-                    imperii reus iure postulatus ac lege, incertum qua potuit
-                    suffragatione absolvi, aperte convictus familiarem suum
-                    cum pileo, quo caput operiebat, incantato vetitis artibus
-                    ad templum misisse fatidicum, quaeritatum expresse an ei
-                    firmum portenderetur imperium, ut cupiebat, et cunctum.
-                    </p>
-                    <p>
-                    Eodem tempore Serenianus ex duce, cuius ignavia populatam
-                    in Phoenice Celsen ante rettulimus, pulsatae maiestatis
-                    imperii reus iure postulatus ac lege, incertum qua potuit
-                    suffragatione absolvi, aperte convictus familiarem suum
-                    cum pileo, quo caput operiebat, incantato vetitis artibus
-                    ad templum misisse fatidicum, quaeritatum expresse an ei
-                    firmum portenderetur imperium, ut cupiebat, et cunctum.
-                    </p>
-                    <div class="stop_ft"></div><!-- end stop ft -->
-                </div><!-- end coll_one -->
+                <h5>Les hébergements qui participent</h5>
+                <hr />
+                <p>
+                Eodem tempore Serenianus ex duce, cuius ignavia populatam
+                in Phoenice Celsen ante rettulimus, pulsatae maiestatis
+                imperii reus iure postulatus ac lege, incertum qua potuit
+                suffragatione absolvi, aperte convictus familiarem suum
+                cum pileo, quo caput operiebat, incantato vetitis artibus
+                ad templum misisse fatidicum, quaeritatum expresse an ei
+                firmum portenderetur imperium, ut cupiebat, et cunctum.
+                </p>
+                <p>
+                Eodem tempore Serenianus ex duce, cuius ignavia populatam
+                in Phoenice Celsen ante rettulimus, pulsatae maiestatis
+                imperii reus iure postulatus ac lege, incertum qua potuit
+                suffragatione absolvi, aperte convictus familiarem suum
+                cum pileo, quo caput operiebat, incantato vetitis artibus
+                ad templum misisse fatidicum, quaeritatum expresse an ei
+                firmum portenderetur imperium, ut cupiebat, et cunctum.
+                </p>
             </article><!-- end inner -->
             <a href=""
                tal:condition="python: member.has_role('Manager')"
@@ -182,11 +173,9 @@
         <section id="a-propos"
                  class="section s4">
             <h4>A propos de nous</h4>
-            <article class="inner">
-                <div class="coll_one"
+            <article class="inner coll_one"
                      tal:define="content python: view.getPageText('a-propos')"
                      tal:content="structure content">
-                </div><!-- end coll_one -->
             </article><!-- end inner -->
             <a href=""
                tal:condition="python: member.has_role('Manager')"
@@ -203,32 +192,30 @@
             <a href=""
                tal:condition="python: member.has_role('Manager')"
                tal:attributes="href string:${portal_url}/nous-suivre/edit">[Modifier cette zone]</a>
-            <article class="inner">
-                <div class="coll_one"
+            <article class="inner coll_one"
                      tal:define="content python: view.getPageText('nous-suivre')"
                      tal:content="structure content">
-                    <h5>Suivez nous</h5>
-                    <hr />
-                    <div class="stop_ft"></div><!-- end stop ft -->
-                    <ul id="social-network">
-                        <li><a href=""
-                               id="facebook"
-                               class="social"
-                               target="_blank"></a></li>
-                        <li><a href=""
-                               id="google-plus"
-                               class="social"
-                               target="_blank"></a></li>
-                        <li><a href=""
-                               id="twitter"
-                               class="social"
-                               target="_blank"></a></li>
-                        <li><a href=""
-                               id="pinterest"
-                               class="social"
-                               target="_blank"></a></li>
-                        </ul>
-                </div><!-- end coll_one -->
+                <h5>Suivez nous</h5>
+                <hr />
+                <div class="stop_ft"></div><!-- end stop ft -->
+                <ul id="social-network">
+                    <li><a href=""
+                           id="facebook"
+                           class="social"
+                           target="_blank"></a></li>
+                    <li><a href=""
+                           id="google-plus"
+                           class="social"
+                           target="_blank"></a></li>
+                    <li><a href=""
+                           id="twitter"
+                           class="social"
+                           target="_blank"></a></li>
+                    <li><a href=""
+                           id="pinterest"
+                           class="social"
+                           target="_blank"></a></li>
+                    </ul>
             </article><!-- end inner -->
         </section><!-- end reseaux sociaux -->
 
