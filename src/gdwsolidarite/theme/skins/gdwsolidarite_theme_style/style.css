@@ -4,7 +4,7 @@ GDW SOLIDARITE
 */
 
 
-@import url("reset.css");
+/*@import url("reset.css");*/
 @import url("fonts.css");
 
 
@@ -45,35 +45,45 @@ padding:0;
 .section {
 width:100%;
 height:100%;
-z-index:10;
-position:relative;
+/*z-index:10;
+position:relative;*/
 margin:0 auto;
 padding:0 0 20px 0;
 }
 
-article.inner{
-width:90%;
-margin:0 auto;
-}
-
-.coll_one{
-border:1px solid #000;
-}
-
-article.inner p{
-width:80%;
-margin:auto;
-text-align:justify;
-}
-
 .separateur{
-position:relative;
+/*position:relative;
 z-index:10;
-display:block;
+display:block;*/
 width:95%;
 height:50%;
 margin:auto;
 }
+
+.bouton-modifier{
+border:1px solid #9d7d11;
+border-radius:18px;
+margin:auto;
+width:250px;
+background: #f6e6b4; /* Old browsers */
+background: -moz-linear-gradient(top,  #f6e6b4 0%, #ed9017 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6e6b4), color-stop(100%,#ed9017)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f6e6b4 0%,#ed9017 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f6e6b4 0%,#ed9017 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f6e6b4 0%,#ed9017 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f6e6b4 0%,#ed9017 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 ); /* IE6-9 */
+}
+
+.bouton-modifier a{
+color:#333;
+display:block;
+font-family:"quicksandregular";
+font-size:0.8em;
+text-align:center;
+text-shadow:1px 1px 1px rgba(250, 250, 250, 0.8);
+}
+
 
 #separateur_01{
 background:url(background_01_action.jpg) center 0 no-repeat fixed;
@@ -107,15 +117,14 @@ background-size:cover;
 width:95%;
 height:100%;
 margin:0 auto;
-color:#fff;
 }
 
 #accueil article{
 position:relative;
 top:75%;
 background-color:rgba(50,50,50,0.1);
-/*border-top:1px solid #c80c10;
-border-bottom:1px solid #c80c10;*/
+border-top:1px solid #ccc;
+border-bottom:1px solid #ccc;
 width:100%;
 height:25%;
 padding-top:1%;
@@ -124,6 +133,8 @@ padding-top:1%;
 #accueil h1, h2, h3{
 text-align:center;
 width:100%;
+color:#fff !important;
+font-weight:none;
 }
 
 #accueil h1{
@@ -131,11 +142,14 @@ font-size:2.2em;
 text-transform:uppercase;
 padding-bottom:18px;
 border-bottom:1px solid #c80c10;
+width:90%;
+margin:auto;
 }
 
 #accueil h2{
-margin-top:6%;
+margin-top:3%;
 font-size:1.8em;
+
 }
 
 #accueil h3{
@@ -147,65 +161,15 @@ font-size:1.2em;
 color:#c0392b;
 }
 
-h4{
-text-align:center;
-background:#b1aa9d;
-color:#fbfcfd;
-font-size:2em !important;
-}
-
 #action,
-#partenaire1,
-#partenaire2,
+#partenaire,
 #hebergement,
-#federation,
+#a-propos,
 #reseaux-sociaux{
 width:95%;
 margin:0 auto;
 background-size:cover;
 }
-
-
-
-#action a{
-color:#4b4b4b;
-font-family:"quicksandlight", sans-serif;
-border:1px solid #4b4b4b;
-padding:5px;
-text-transform:uppercase;
--webkit-transition:all .6s ease-in;
--moz-transition:all .6s ease-in;
-}
-
-#action a:hover, #portfolio a.externe:hover{
-background:#4b4b4b;
-color:#ecf0f1;
--webkit-transition:all .6s ease-in;
--moz-transition:all .6s ease-in;
-}
-
-
-#action h5{
-text-transform:uppercase;
-}
-
-#action hr{
-display:block;
-width:100px;
-height:3px;
-background:#4b4b4b;
-position:relative;
-left:50%;
-margin-left:-50px;
-bottom:0;
-}
-
-#action span{
-color:#c0392b;
-font-family:"quicksandbold", sans-serif;
-}
-
-
 
 
 #reseaux-sociaux #social-network{
@@ -275,11 +239,6 @@ background-position:center top;
 background-position:center bottom;
 }
 
-
-#a-propos{
-width:95%;
-margin:0 auto;
-}
 
 #a-propos h5{
 text-transform:uppercase;
