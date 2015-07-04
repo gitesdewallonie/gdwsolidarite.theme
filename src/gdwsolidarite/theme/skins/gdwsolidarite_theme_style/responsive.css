@@ -5,66 +5,57 @@
         line-height: 24px;
         }
 
+        article.article-section{
+        width:80%;
+        margin: 0 auto;
+        }
+
         #action,
         #partenaire,
         #hebergement,
         #federation,
-        #reseaux-sociaux,
-        #contact{
-        height: 800px;
-        }
-
-        #action.inner,
-        #partenaire.inner,
-        #hebergement.inner,
-        #federation.inner,
-        #reseaux-sociaux.inner,
-        #contact.inner{
-        position: relative;
-        margin-top: 50px;
-        }
-
-        .coll_one{
-        border:1px solid #000 !important;
-        min-height:100%;
+        #a-propos,
+        #reseaux-sociaux{
+        height:100%;
+        margin:auto;
+        margin-top:50px;
         }
 
         #action.coll_one,
         #partenaire.coll_one,
         #hebergement.coll_one,
         #federation.coll_one,
-        #reseaux-sociaux.coll_one,
-        #contact.coll_one{
-        width: 60%;
-        margin: 0 auto;
+        #a-propos.coll_one,
+        #reseaux-sociaux.coll_one{
         text-align: center;
+        border:1px solid #AAA;
         }
 
-        #action h5,
-        #partenaire h5,
-        #hebergement h5,
-        #federation h5,
-        #reseaux-sociaux h5,
-        #contact h5{
-        margin: 24px 0;
-        text-align: center;
+        #action h1,
+        #partenaire h1,
+        #hebergement h1,
+        #federation h1,
+        #a-propos h1,
+        #reseaux-sociaux h1{
+        text-align:center;
+        background:#b1aa9d;
+        color:#fbfcfd;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1em;
+        margin:auto !important;
         }
 
         #action p,
         #partenaire p,
         #hebergement p,
         #federation p,
-        #reseaux-sociaux p,
-        #contact p{
+        #a-propos p,
+        #reseaux-sociaux p{
         margin-bottom: 24px;
         text-align: left;
         }
 
-        h4{
-        height: 50px;
-        line-height: 50px;
-        font-size: 1em;
-        }
 }
 
 
@@ -98,8 +89,8 @@
         #partenaire,
         #hebergement,
         #federation,
-        #reseaux-sociaux,
-        #contact{
+        #a-propos,
+        #reseaux-sociaux{
         height: 800px;
         }
 
@@ -108,8 +99,8 @@
         #partenaire.inner,
         #hebergement.inner,
         #federation.inner,
-        #reseaux-sociaux.inner,
-        #contact.inner{
+        #a-propos.inner,
+        #reseaux-sociaux.inner{
         position: relative;
         margin-top: 50px;
         }
@@ -118,21 +109,10 @@
         #partenaire.coll_one,
         #hebergement.coll_one,
         #federation.coll_one,
-        #reseaux-sociaux.coll_one,
-        #contact.coll_one{
+        #a-propos.coll_one,
+        #reseaux-sociaux.coll_one{
         width: 60%;
         margin: 0 auto;
-        text-align: center;
-        }
-
-
-        #action h5,
-        #partenaire h5,
-        #hebergement h5,
-        #federation h5,
-        #reseaux-sociaux h5,
-        #contact h5{
-        margin: 24px 0;
         text-align: center;
         }
 
@@ -141,7 +121,7 @@
         #hebergement p,
         #federation p,
         #reseaux-sociaux p,
-        #contact p{
+        #a-propos p{
         margin-bottom: 24px;
         text-align: left;
         }
@@ -193,8 +173,8 @@
         #partenaire,
         #hebergement,
         #federation,
-        #reseaux-sociaux,
-        #contact{
+        #a-propos,
+        #reseaux-sociaux{
         height: 700px;
         }
 
@@ -202,8 +182,8 @@
         #partenaire.inner,
         #hebergement.inner,
         #federation.inner,
-        #reseaux-sociaux.inner,
-        #contact.inner{
+        #a-propos.inner,
+        #reseaux-sociaux.inner{
         position: relative;
         margin-top: 50px;
         }
@@ -212,20 +192,10 @@
         #partenaire.coll_one,
         #hebergement.coll_one,
         #federation.coll_one,
-        #reseaux-sociaux.coll_one,
-        #contact.coll_one{
+        #a-propos.coll_one,
+        #reseaux-sociaux.coll_one{
         width: 50%;
         margin: 0 auto;
-        text-align: center;
-        }
-
-        #action h5,
-        #partenaire h5,
-        #hebergement h5,
-        #federation h5,
-        #reseaux-sociaux h5,
-        #contact h5{
-        margin: 21px 0;
         text-align: center;
         }
 
