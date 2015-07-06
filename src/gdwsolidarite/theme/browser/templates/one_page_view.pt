@@ -71,7 +71,7 @@
 
             <section id="partenaire"
                      class="section s3">
-                <h1>partenaire</h1>
+                <h1>Partenaires</h1>
                 <article class="article-section">
                     <div class="coll_one"
                          tal:define="content python: view.getPageText('partenaires')"
