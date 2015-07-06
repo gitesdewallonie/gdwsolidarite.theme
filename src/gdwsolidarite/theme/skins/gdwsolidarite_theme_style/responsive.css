@@ -1,12 +1,33 @@
 
+/*
+AFFINITIC JUIN 2015
+GDW SOLIDARITE
+
+responsive css
+*/
+
+
 @media screen and (min-width: 1024px){
         body{
         font-size: 16px;
         line-height: 24px;
         }
 
+        #logo {
+        float: left;
+        position:absolute;
+        top:10px;
+        left:10px;
+        width:160px;
+        height:160px;
+        border-radius:6px;
+        background:url(logo_gdw.png) no-repeat center center transparent;
+         -webkit-background-size: cover;
+        background-size: cover;
+        }
+
         article.article-section{
-        width:80%;
+        width:70%;
         margin: 0 auto;
         }
 
@@ -37,12 +58,14 @@
         #federation h1,
         #a-propos h1,
         #reseaux-sociaux h1{
-        text-align:center;
-        background:#b1aa9d;
-        color:#fbfcfd;
         height: 50px;
+        background:#b1aa9d;
+        font-family: 'quicksandbold', sans-serif;
+        font-size: 1.6em;
+        color:#fbfcfd;
+        text-align:center;
+        letter-spacing:0.2em;
         line-height: 50px;
-        font-size: 1em;
         margin:auto !important;
         }
 
@@ -65,6 +88,20 @@
         line-height: 24px;
         }
 
+        #logo {
+        float: left;
+        position:absolute;
+        top:10px;
+        left:10px;
+        width:80px;
+        height:80px;
+        border-radius:6px;
+        background:url(logo_gdw.png) no-repeat center center transparent;
+         -webkit-background-size: cover;
+        background-size: cover;
+        }
+
+
         #accueil h1{
         font-size: 1.8em;
         margin-left: -94.5px;
@@ -85,6 +122,11 @@
         font-size: 1em;
         }
 
+        article.article-section{
+        width:70%;
+        margin: 0 auto;
+        }
+
         #action,
         #partenaire,
         #hebergement,
@@ -93,7 +135,6 @@
         #reseaux-sociaux{
         height: 800px;
         }
-
 
         #action .inner,
         #partenaire.inner,
@@ -140,6 +181,19 @@
         line-height: 21px;
         }
 
+        #logo {
+        float: left;
+        position:absolute;
+        top:3px;
+        left:5px;
+        width:50px;
+        height:50px;
+        border-radius:6px;
+        background:url(logo_gdw.png) no-repeat center center transparent;
+         -webkit-background-size: cover;
+        background-size: cover;
+        }
+
         .nav-collapse li {
         text-align: center;
         border-top: 1px solid rgba(255, 255, 255, 0.5);
@@ -167,6 +221,12 @@
         margin-left: -209px;
         margin-top: 180px;
         font-size: 1em;
+        }
+
+        article.article-section{
+        width:80%;
+        margin: 0 auto;
+        text-align:justify;
         }
 
         #action,
@@ -228,11 +288,17 @@
         line-height: 21px;
         }
 
-        a.logo{
-        position: relative;
-        left: 50%;
-        margin-left: -57.5px;
-        margin-top: 3.5px;
+        #logo {
+        float: left;
+        position:absolute;
+        top:3px;
+        left:5px;
+        width:50px;
+        height:50px;
+        border-radius:6px;
+        background:url(logo_gdw.png) no-repeat center center transparent;
+         -webkit-background-size: cover;
+        background-size: cover;
         }
 
         .nav-collapse li {
@@ -242,6 +308,12 @@
 
         .nav-collapse li:first-child{
         border-top: 0;
+        }
+
+        article.article-section{
+        width:90%;
+        margin: 0 auto;
+        text-align:justify;
         }
 
         #accueil h1{
@@ -300,7 +372,6 @@
         #action .right{
         margin-right: 0;
         }
-
 
         #action a{
         margin-bottom: 42px;
