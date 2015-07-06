@@ -21,9 +21,8 @@ def setupSite(context):
     deleteContent(portal, 'front-page')
     createDocument(portal, 'action', 'Action')
     createDocument(portal, 'partenaires', 'Partenaires')
-    createDocument(portal, 'partenaires2', 'Partenaires')
     createDocument(portal, 'hebergements', 'Hébergements')
-    createDocument(portal, 'federation', 'Fédération')
+    createDocument(portal, 'a-propos', 'A propos')
     createDocument(portal, 'nous-suivre', 'Nous suivre')
     changeFolderView(portal, portal, 'one_page_view')
 
