@@ -8,7 +8,7 @@ portal plone css
 
 #portal-column-content{
 margin:auto;
-margin-top:60px;
+margin-top:240px;
 }
 
 #content {
@@ -17,5 +17,10 @@ clear: both;
 font-size: 80%;
 line-height: 1.5em;
 margin:auto;
-margin-top:50px;
+}
+
+div.cell {
+clear:both;
+left:0px;
+position:relative;
 }
