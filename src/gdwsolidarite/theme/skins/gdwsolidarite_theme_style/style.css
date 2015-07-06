@@ -1,6 +1,8 @@
 /*
 AFFINITIC JUIN 2015
 GDW SOLIDARITE
+
+static css
 */
 
 
@@ -40,6 +42,15 @@ z-index:10;
 position:relative;
 margin:0 auto;
 padding:0;
+}
+
+header {
+background: #3b3b3b;
+position: fixed;
+z-index: 1000000000;
+width: 95%;
+left: 2.5%;
+top: 0;
 }
 
 .section {
@@ -84,35 +95,66 @@ text-align:center;
 text-shadow:1px 1px 1px rgba(250, 250, 250, 0.8);
 }
 
+article.article-section h1,
+article.article-section h2,
+article.article-section h3{
+color:#b1aa9d !important;
+text-align:left;
+border-bottom:1px solid #b1aa9d;
+margin-bottom:0.4em;
+}
+
+div.coll_one p{
+text-align:justify !important;
+}
+
 
 #separateur_01{
 background:url(background_01_action.jpg) center 0 no-repeat fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
 background-size:cover;
 }
 
 #separateur_02{
 background:url(background_02_partenaire.jpg) center 0 no-repeat fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
 background-size:cover;
 }
 
 #separateur_03{
 background:url(background_03_hebergement.jpg) center 0 no-repeat fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
 background-size:cover;
 }
 
 #separateur_04{
 background:url(background_04_apropos.jpg) center 0 no-repeat fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
 background-size:cover;
 }
 
 #separateur_05{
 background:url(background_05_nous_suivre.jpg) center 0 no-repeat fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
 background-size:cover;
 }
 
 
 #accueil{
-background:url(background_00_accueil.png);
+background:url(background_00_accueil.png) center 0 no-repeat fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
 background-size:cover;
 width:95%;
 height:100%;
@@ -130,10 +172,13 @@ height:25%;
 padding-top:1%;
 }
 
-#accueil h1, h2, h3{
+div#wrapper section#accueil.section.s1 article.article-section h1,
+div#wrapper section#accueil.section.s1 article.article-section h2,
+div#wrapper section#accueil.section.s1 article.article-section h3{
 text-align:center;
 width:100%;
 color:#fff !important;
+font-family: 'quicksandregular', sans-serif;
 font-weight:none;
 }
 
@@ -168,6 +213,9 @@ color:#c0392b;
 #reseaux-sociaux{
 width:95%;
 margin:0 auto;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
 background-size:cover;
 }
 
@@ -270,12 +318,12 @@ text-decoration:underline;
 
 
 ::selection{
-background-color:#4b4b4b;
+background-color:#888;
 color:#c0392b;
 }
 
 ::-moz-selection {
-background-color:#4b4b4b;
+background-color:#888;
 color:#c0392b;
 }
 
