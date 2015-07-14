@@ -6,7 +6,7 @@ GDW SOLIDARITE
 responsive css
 */
 
-
+/*** DESKTOP ***/
 @media screen and (min-width: 1024px){
         body{
         font-size: 16px;
@@ -93,8 +93,8 @@ responsive css
         position:absolute;
         top:10px;
         left:10px;
-        width:80px;
-        height:80px;
+        width:160px;
+        height:160px;
         border-radius:6px;
         background:url(logo_gdw.png) no-repeat center center transparent;
          -webkit-background-size: cover;
@@ -175,6 +175,18 @@ responsive css
 }
 
 
+/**** IPAD MODE PORTRAIT (vertical) ****/
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait){
+}
+
+
+/**** IPAD MODE PAYSAGE (horizontal) ****/
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+}
+
+
+/**** IPAD MODE PAYSAGE ****/
 @media screen and (min-width: 480px) and (max-width: 767px){
         body{
         font-size: 14px;
@@ -282,6 +294,7 @@ responsive css
 }
 
 
+/**** MOBILE ****/
 @media screen and (max-width: 479px){
         body{
         font-size: 14px;

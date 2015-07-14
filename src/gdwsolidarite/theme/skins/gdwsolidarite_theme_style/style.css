@@ -229,12 +229,19 @@ background-size:cover;
 
 
 #reseaux-sociaux #social-network{
-margin:0px auto;
+margin:auto;
+margin-top:20%;
 padding:0px;
-width:60%;
+width:90%;
 }
 
-#reseaux-sociaux #social-network li{
+#reseaux-sociaux #social-network ul{
+margin:auto;
+width:440px;
+}
+
+
+#reseaux-sociaux #social-network ul li{
 display:inline-block;
 margin-right:32px;
 text-align:center;
@@ -284,6 +291,15 @@ background-position:-80px -8px;
 
 #reseaux-sociaux #twitter:hover{
 background-position:-80px -85px;
+}
+
+#reseaux-sociaux #pinterest{
+background:url(reseaux_sociaux.png) no-repeat;
+background-position:-236px -8px;
+}
+
+#reseaux-sociaux #pinterest:hover{
+background-position:-236px -85px;
 }
 
 #reseaux-sociaux .mail{
