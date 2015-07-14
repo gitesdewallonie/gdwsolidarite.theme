@@ -127,10 +127,8 @@
                      class="section s4">
                 <h1>Nous suivre</h1>
                 <article class="article-section">
-                    <div class="coll_one"
-                         tal:define="content python: view.getPageText('nous-suivre')"
-                         tal:content="structure content">
-                        <ul id="social-network">
+                    <div id="social-network" class="coll_one">
+                        <ul>
                             <li><a href=""
                                    id="facebook"
                                    class="social"
