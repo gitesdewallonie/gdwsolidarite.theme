@@ -20,6 +20,7 @@ def setupSite(context):
     deleteContent(portal, 'events')
     deleteContent(portal, 'front-page')
     createDocument(portal, 'action', 'Action')
+    createDocument(portal, 'attractions-musees', 'Attractions et Musées')
     createDocument(portal, 'partenaires', 'Partenaires')
     createDocument(portal, 'hebergements', 'Hébergements')
     createDocument(portal, 'a-propos', 'A propos')
