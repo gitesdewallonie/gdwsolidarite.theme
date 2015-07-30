@@ -232,18 +232,19 @@ background-size:cover;
 margin:auto;
 margin-top:20%;
 padding:0px;
-width:90%;
 }
 
 #reseaux-sociaux #social-network ul{
+display:flex;
+flex-wrap:wrap;
 margin:auto;
-width:440px;
+width:80%;
 }
 
 
 #reseaux-sociaux #social-network ul li{
-display:inline-block;
-margin-right:32px;
+margin:8px 1rem;
+list-style: none;
 text-align:center;
 }
 
