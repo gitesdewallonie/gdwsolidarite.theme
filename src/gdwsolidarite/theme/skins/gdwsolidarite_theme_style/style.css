@@ -159,9 +159,9 @@ background-size:cover;
 
 #accueil{
 background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
 background-size:cover;
 width:95%;
 height:100%;
@@ -232,18 +232,21 @@ background-size:cover;
 margin:auto;
 margin-top:20%;
 padding:0px;
-width:90%;
+width:100%;
 }
 
 #reseaux-sociaux #social-network ul{
-margin:auto;
-width:440px;
+display:flex;
+flex-wrap: wrap;
+width:30rem;
+margin:0px auto;
+padding:0px;
 }
 
 
 #reseaux-sociaux #social-network ul li{
-display:inline-block;
-margin-right:32px;
+list-style: none;
+padding:15px 1rem;
 text-align:center;
 }
 
