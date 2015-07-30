@@ -11,7 +11,6 @@
          id="visual-portal-wrapper"
          tal:define="portal_url context/@@plone_portal_state/portal_url;
                      member context/@@plone_portal_state/member">
-
         <header>
             <div id="logo" data-scroll>
                 <a href="#accueil"></a>
@@ -25,10 +24,13 @@
                         <a href="#action" data-scroll>Action</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#partenaire" data-scroll>Partenaires</a>
+                        <a href="#hebergement" data-scroll>Hébergements</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#hebergement" data-scroll>Hébergements</a>
+                        <a href="#attractions-musees" data-scroll>Attractions et Musées</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#partenaire" data-scroll>Partenaires</a>
                     </li>
                     <li class="menu-item">
                         <a href="#a-propos" data-scroll>A propos de nous</a>
@@ -69,26 +71,8 @@
 
             <div id="separateur_02" class="separateur"></div>
 
-            <section id="partenaire"
-                     class="section s3">
-                <h1>Partenaires</h1>
-                <article class="article-section">
-                    <div class="coll_one"
-                         tal:define="content python: view.getPageText('partenaires')"
-                         tal:content="structure content">
-                    </div>
-                    <div class="bouton-modifier"
-                         tal:condition="python: member.has_role('Manager')">
-                        <a href=""
-                           tal:attributes="href string:${portal_url}/partenaires/edit">Modifier cette zone</a>
-                    </div>
-                </article>
-            </section><!-- end partenaire1 -->
-
-            <div id="separateur_03" class="separateur"></div>
-
             <section id="hebergement"
-                     class="section s4">
+                     class="section s3">
                 <h1>Hébergements</h1>
                 <article class="article-section">
                     <div class="coll_one"
@@ -103,10 +87,48 @@
                 </article>
             </section><!-- end hebergements -->
 
+            <div id="separateur_03" class="separateur"></div>
+
+            <section id="attractions-musees"
+                     class="section s4">
+                <h1>Attractions et musées</h1>
+                <article class="article-section">
+                    <div class="coll_one"
+                         tal:define="content python: view.getPageText('attractions-musees')"
+                         tal:content="structure content">
+                    </div>
+                    <div class="bouton-modifier"
+                         tal:condition="python: member.has_role('Manager')">
+                        <a href=""
+                           tal:attributes="href string:${portal_url}/attractions-musees/edit">Modifier cette zone</a>
+                    </div>
+                </article>
+            </section><!-- end partenaire1 -->
+
+
             <div id="separateur_04" class="separateur"></div>
 
+            <section id="partenaire"
+                     class="section s5">
+                <h1>Partenaires</h1>
+                <article class="article-section">
+                    <div class="coll_one"
+                         tal:define="content python: view.getPageText('partenaires')"
+                         tal:content="structure content">
+                    </div>
+                    <div class="bouton-modifier"
+                         tal:condition="python: member.has_role('Manager')">
+                        <a href=""
+                           tal:attributes="href string:${portal_url}/partenaires/edit">Modifier cette zone</a>
+                    </div>
+                </article>
+            </section><!-- end partenaire1 -->
+
+
+            <div id="separateur_05" class="separateur"></div>
+
             <section id="a-propos"
-                     class="section s4">
+                     class="section s6">
                 <h1>A propos de nous</h1>
                 <article class="article-section">
                     <div class="coll_one"
@@ -121,10 +143,10 @@
                 </article>
             </section><!-- end a propos -->
 
-            <div id="separateur_05" class="separateur"></div>
+            <div id="separateur_06" class="separateur"></div>
 
             <section id="reseaux-sociaux"
-                     class="section s4">
+                     class="section s6">
                 <h1>Nous suivre</h1>
                 <article class="article-section">
                     <div id="social-network" class="coll_one">

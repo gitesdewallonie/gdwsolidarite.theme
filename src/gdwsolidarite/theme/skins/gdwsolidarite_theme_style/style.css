@@ -125,7 +125,7 @@ background-size:cover;
 }
 
 #separateur_02{
-background:url(background_02_partenaire.jpg) center 0 no-repeat fixed;
+background:url(background_02_hebergement.jpg) center 0 no-repeat fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -133,7 +133,7 @@ background-size:cover;
 }
 
 #separateur_03{
-background:url(background_03_hebergement.jpg) center 0 no-repeat fixed;
+background:url(background_03_attractions-musees.jpg) center 0 no-repeat fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -142,6 +142,14 @@ background-size:cover;
 
 #separateur_04{
 background:url(background_04_apropos.jpg) center 0 no-repeat fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size:cover;
+}
+
+#separateur_05{
+background:url(background_05_nous_suivre.jpg) center 0 no-repeat fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -215,8 +223,9 @@ color:#c0392b;
 }
 
 #action,
-#partenaire,
 #hebergement,
+#attractions-musees,
+#partenaire,
 #a-propos,
 #reseaux-sociaux{
 width:95%;
@@ -351,4 +360,31 @@ color:#c0392b;
 background-color:#888;
 color:#c0392b;
 }
+
+
+
+1Accueil
+2Action
+3Hébergement
+4Attraction et musée
+5Partenaire
+6A propos de nous
+7Nous suivre
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
