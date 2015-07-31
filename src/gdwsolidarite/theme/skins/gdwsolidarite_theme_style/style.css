@@ -126,12 +126,13 @@ text-align:justify;
 background-size:cover;
 }
 
-#accueil article{
+section#accueil article.article-section{
 background-color:rgba(50,50,50,0.4);
 border-top:1px solid #ccc;
 border-bottom:1px solid #ccc;
 width:100%;
 padding-top:1%;
+margin:auto;
 }
 
 div#wrapper section#accueil.section.s1 article.article-section h1,

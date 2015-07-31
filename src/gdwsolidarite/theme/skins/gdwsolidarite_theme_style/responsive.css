@@ -28,10 +28,9 @@ http://mydevice.io/devices/
         background-size: cover;
         }
 
-        article.article-section{
+        section#accueil article.article-section{
         position:relative;
         top:75%;
-        width:90%;
         height:200px;
         }
 
@@ -151,32 +150,22 @@ http://mydevice.io/devices/
         }
 
         #accueil h1{
-        font-size: 1.8em;
-        margin-left: -94.5px;
-        margin-top: -90px;
+        font-size:6vw;
         }
 
         #accueil h2{
-        font-size: 1.4em;
-        margin-left: -220px;
-        margin-top: -50px;
-        border-bottom: 1px solid #ecf0f1;
-        padding: 24px 0;
+        font-size:4vw;
         }
 
         #accueil h3{
-        margin-left: -237.5px;
-        margin-top: 270px;
-        font-size: 1em;
+        font-size:3vw;
         }
 
         article.article-section{
         position:relative;
-        top:75%;
-        width:90%;
-        height:200px;
+        top:60%;
+        height:400px;
         }
-
 
         #action,
         #hebergement,
@@ -297,30 +286,21 @@ http://mydevice.io/devices/
         }
 
         #accueil h1{
-        font-size: 1.8em;
-        margin-left: -82px;
-        margin-top: -65px;
+        font-size:6vw;
         }
 
         #accueil h2{
-        font-size: 1.4em;
-        margin-left: -193.5px;
-        margin-top: -50px;
-        border-bottom: 1px solid #ecf0f1;
-        padding: 24px 0;
+        font-size:4vw;
         }
 
         #accueil h3{
-        margin-left: -209px;
-        margin-top: 180px;
-        font-size: 1em;
+        font-size:3vw;
         }
 
-        article.article-section{
+        section#accueil article.article-section{
         position:relative;
-        top:75%;
-        width:90%;
-        height:200px;
+        top:60%;
+        height:400px;
         }
 
         #action,
@@ -430,10 +410,9 @@ http://mydevice.io/devices/
         font-size: 1em;
         }
 
-        article.article-section{
+        section#accueil article.article-section{
         position:relative;
         top:75%;
-        width:90%;
         height:200px;
         }
 
@@ -540,10 +519,9 @@ http://mydevice.io/devices/
         display:none;
         }
 
-        article.article-section{
+        section#accueil article.article-section{
         position:relative;
         top:480px;
-        width:90%;
         height:200px;
         }
 
