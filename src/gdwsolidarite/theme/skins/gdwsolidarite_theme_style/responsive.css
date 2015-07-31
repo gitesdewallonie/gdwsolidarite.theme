@@ -28,12 +28,16 @@ http://mydevice.io/devices/
         background-size: cover;
         }
 
+        article.article-section{
+        width:70%;
+        margin:auto;
+        }
+
         section#accueil article.article-section{
         position:relative;
         top:75%;
         height:200px;
         }
-
 
         #accueil{
         background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
@@ -145,26 +149,32 @@ http://mydevice.io/devices/
         background-size: cover;
         }
 
-        #accueil{
-        background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
-        }
-
-        #accueil h1{
-        font-size:6vw;
-        }
-
-        #accueil h2{
-        font-size:4vw;
-        }
-
-        #accueil h3{
-        font-size:3vw;
-        }
-
         article.article-section{
+        width:70%;
+        margin:auto;
+        min-height:100%;
+        }
+
+        section#accueil article.article-section{
         position:relative;
         top:60%;
         height:400px;
+        }
+
+        section#accueil{
+        background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
+        }
+
+        section#accueil h1{
+        font-size:6vw;
+        }
+
+        section#accueil h2{
+        font-size:4vw;
+        }
+
+        section#accueil h3{
+        font-size:3vw;
         }
 
         #action,
@@ -285,22 +295,22 @@ http://mydevice.io/devices/
         border-top: 0;
         }
 
-        #accueil h1{
-        font-size:6vw;
-        }
-
-        #accueil h2{
-        font-size:4vw;
-        }
-
-        #accueil h3{
-        font-size:3vw;
-        }
-
         section#accueil article.article-section{
         position:relative;
         top:60%;
         height:400px;
+        }
+
+        section#accueil h1{
+        font-size:6vw;
+        }
+
+        section#accueil h2{
+        font-size:4vw;
+        }
+
+        section#accueil h3{
+        font-size:3vw;
         }
 
         #action,
