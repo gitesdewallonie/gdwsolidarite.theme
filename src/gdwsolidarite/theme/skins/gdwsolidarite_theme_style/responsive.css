@@ -540,6 +540,11 @@ http://mydevice.io/devices/
         border-top: 0;
         }
 
+        .nav-collapse a {
+        font-size:6vw;
+        }
+
+
         div#separateur_01,
         div#separateur_02,
         div#separateur_03,
