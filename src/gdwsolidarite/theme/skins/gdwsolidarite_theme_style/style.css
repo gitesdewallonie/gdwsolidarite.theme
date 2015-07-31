@@ -6,9 +6,9 @@ static css
 */
 
 
-/*@import url("reset.css");*/
+@import url("reset.css");
 @import url("fonts.css");
-
+@import url("responsive.css");
 
 *{
 box-sizing:border-box;
@@ -115,65 +115,14 @@ div.coll_one p{
 text-align:justify !important;
 }
 
-
-#separateur_01{
-background:url(background_01_action.jpg) center 0 no-repeat fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size:cover;
-}
-
-#separateur_02{
-background:url(background_02_hebergement.jpg) center 0 no-repeat fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size:cover;
-}
-
-#separateur_03{
-background:url(background_03_attractions-musees.jpg) center 0 no-repeat fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size:cover;
-}
-
-#separateur_04{
-background:url(background_04_apropos.jpg) center 0 no-repeat fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size:cover;
-}
-
-#separateur_05{
-background:url(background_05_apropos.jpg) center 0 no-repeat fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size:cover;
-}
-
-#separateur_06{
-background:url(background_06_nous_suivre.jpg) center 0 no-repeat fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size:cover;
-}
-
-
 #accueil{
-background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size:cover;
 width:95%;
 height:100%;
 margin:0 auto;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size:cover;
 }
 
 #accueil article{
@@ -198,24 +147,16 @@ font-weight:none;
 }
 
 div#wrapper section#accueil.section.s1 article.article-section h1{
-font-size:2.2em;
 text-transform:uppercase;
-padding-bottom:18px;
 border-bottom:1px solid #c80c10;
 width:90%;
 margin:auto;
 }
 
-div#wrapper section#accueil.section.s1 article.article-section h2{
-margin-top:3%;
-font-size:1.8em;
-border-bottom:none;
-}
-
+div#wrapper section#accueil.section.s1 article.article-section h2,
 div#wrapper section#accueil.section.s1 article.article-section h3{
-margin-top:2%;
-font-size:1.2em;
 border-bottom:none;
+font-weight:none;
 }
 
 #accueil span{
