@@ -24,3 +24,12 @@ clear:both;
 left:0px;
 position:relative;
 }
+
+
+html body#plonebrowser.forceColors.image-browser div#content.dialog-wrapper.icons-on div#browseimage_panel.row div#general_panel.cell.position-0.width-3:4{
+margin-left:0px;
+}
+
+#browseimage_panel{
+border:1px solid #0f0;
+}
