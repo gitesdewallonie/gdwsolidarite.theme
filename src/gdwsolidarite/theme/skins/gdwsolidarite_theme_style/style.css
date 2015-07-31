@@ -28,7 +28,7 @@ font-family:'quicksandregular', sans-serif;
 margin:0;
 padding:0;
 color:#4b4b4b;
-background:url(background_body.jpg) #f3efe8 repeat-y 80% top;
+background:url(background_body.jpg) #f3efe8 repeat-y fixed 80% top;
 }
 
 .stop_ft{
@@ -76,7 +76,6 @@ display:block;
 width:95%;
 height:50%;
 margin:auto;
-background-size:cover;
 }
 
 .bouton-modifier{
