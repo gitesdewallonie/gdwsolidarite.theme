@@ -4,6 +4,8 @@ AFFINITIC JUIN 2015
 GDW SOLIDARITE
 
 responsive css
+
+http://mydevice.io/devices/
 */
 
 /*** DESKTOP ***/
@@ -27,9 +29,12 @@ responsive css
         }
 
         article.article-section{
-        width:70%;
-        margin: 0 auto;
+        position:relative;
+        top:75%;
+        width:90%;
+        height:200px;
         }
+
 
         #accueil{
         background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
@@ -166,9 +171,12 @@ responsive css
         }
 
         article.article-section{
-        width:70%;
-        margin: 0 auto;
+        position:relative;
+        top:75%;
+        width:90%;
+        height:200px;
         }
+
 
         #action,
         #hebergement,
@@ -309,9 +317,10 @@ responsive css
         }
 
         article.article-section{
-        width:80%;
-        margin: 0 auto;
-        text-align:justify;
+        position:relative;
+        top:75%;
+        width:90%;
+        height:200px;
         }
 
         #action,
@@ -422,10 +431,12 @@ responsive css
         }
 
         article.article-section{
-        width:80%;
-        margin: 0 auto;
-        text-align:justify;
+        position:relative;
+        top:75%;
+        width:90%;
+        height:200px;
         }
+
 
         #action,
         #hebergement,
@@ -481,14 +492,12 @@ responsive css
 }
 
 
-/**** IPAD MODE PAYSAGE ****/
-/*
-@media screen and (min-width: 480px) and (max-width: 767px){
-}
-*/
+
+
+
 
 /**** MOBILE ****/
-@media screen and (max-width: 479px){
+@media screen and (max-device-width: 480px){
         body{
         font-size: 14px;
         line-height: 21px;
@@ -532,24 +541,25 @@ responsive css
         }
 
         article.article-section{
+        position:relative;
+        top:480px;
         width:90%;
-        margin: 0 auto;
-        text-align:justify;
+        height:200px;
         }
 
         #accueil h1{
         color:#f00;
-        font-size:16px;
+        font-size:6vw;
         padding-bottom:5px;
         }
 
         #accueil h2{
-        font-size:12px;
+        font-size:4vw;
         border-bottom: 1px solid #ecf0f1;
         }
 
         #accueil h3{
-        font-size:9px;
+        font-size:3vw;
         text-align: center;
         }
 
