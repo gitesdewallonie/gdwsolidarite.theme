@@ -15,6 +15,12 @@ http://mydevice.io/devices/
         line-height: 24px;
         }
 
+        iframe{
+        margin-left:6%;
+        margin-right:6%;
+        width:90%;
+        }
+
         #logo {
         float: left;
         position:absolute;
@@ -128,6 +134,12 @@ http://mydevice.io/devices/
         body{
         font-size: 16px;
         line-height: 24px;
+        }
+
+        iframe{
+        margin-left:6%;
+        margin-right:6%;
+        width:90%;
         }
 
         #logo {
@@ -263,6 +275,10 @@ http://mydevice.io/devices/
         line-height: 21px;
         }
 
+        iframe{
+        width:100%;
+        }
+
         #logo {
         float: left;
         position:absolute;
@@ -366,6 +382,12 @@ http://mydevice.io/devices/
         body{
         font-size: 14px;
         line-height: 21px;
+        }
+
+        iframe{
+        margin-left:6%;
+        margin-right:6%;
+        width:90%;
         }
 
         #logo {
@@ -484,6 +506,10 @@ http://mydevice.io/devices/
         body{
         font-size: 14px;
         line-height: 21px;
+        }
+
+        iframe{
+        width:100%;
         }
 
         #logo {
