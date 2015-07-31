@@ -416,6 +416,10 @@ http://mydevice.io/devices/
         border-top: 0;
         }
 
+        .nav-collapse a {
+        font-size:2vw;
+        }
+
         #accueil h1{
         font-size: 1.8em;
         margin-left: -82px;
@@ -521,7 +525,7 @@ http://mydevice.io/devices/
         height:50px;
         border-radius:6px;
         background:url(logo_gdw.png) no-repeat center 0 transparent;
-         -webkit-background-size: cover;
+        -webkit-background-size: cover;
         background-size: cover;
         }
 
