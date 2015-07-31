@@ -91,40 +91,34 @@ http://mydevice.io/devices/
         text-align: left;
         }
 
-        #separateur_01,
-        #separateur_02,
-        #separateur_03,
-        #separateur_04,
-        #separateur_05,
-        #separateur_06{
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size:cover;
-        }
-
         #separateur_01{
         background:url(background_01_action.jpg) center 0 no-repeat fixed;
+        background-size:cover;
         }
 
         #separateur_02{
         background:url(background_02_hebergement.jpg) center 0 no-repeat fixed;
+        background-size:cover;
         }
 
         #separateur_03{
         background:url(background_03_attractions-musees.jpg) center 0 no-repeat fixed;
+        background-size:cover;
         }
 
         #separateur_04{
         background:url(background_04_apropos.jpg) center 0 no-repeat fixed;
+        background-size:cover;
         }
 
         #separateur_05{
         background:url(background_05_apropos.jpg) center 0 no-repeat fixed;
+        background-size:cover;
         }
 
         #separateur_06{
         background:url(background_06_nous_suivre.jpg) center 0 no-repeat fixed;
+        background-size:cover;
         }
 
 }
