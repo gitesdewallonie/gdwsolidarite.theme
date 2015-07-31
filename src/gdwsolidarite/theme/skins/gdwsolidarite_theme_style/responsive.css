@@ -37,7 +37,7 @@ responsive css
         #partenaire,
         #a-propos,
         #reseaux-sociaux{
-        height:100%;
+        min-height:100%;
         margin:auto;
         margin-top:50px;
         }
