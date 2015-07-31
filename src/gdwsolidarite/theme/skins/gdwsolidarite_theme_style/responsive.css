@@ -353,6 +353,23 @@ http://mydevice.io/devices/
         text-align: center;
         }
 
+        #action h1,
+        #hebergement h1,
+        #attractions-musees h1,
+        #partenaire h1,
+        #a-propos h1,
+        #reseaux-sociaux h1{
+        height: 50px;
+        background:#b1aa9d;
+        font-family: 'quicksandbold', sans-serif;
+        font-size:3vw;
+        color:#fbfcfd;
+        text-align:center;
+        letter-spacing:0.2em;
+        line-height: 50px;
+        margin:auto !important;
+        }
+
         #action p,
         #hebergement p,
         #attractions-musees p,
@@ -456,6 +473,23 @@ http://mydevice.io/devices/
         height: 700px;
         }
 
+        #action h1,
+        #hebergement h1,
+        #attractions-musees h1,
+        #partenaire h1,
+        #a-propos h1,
+        #reseaux-sociaux h1{
+        height: 50px;
+        background:#b1aa9d;
+        font-family: 'quicksandbold', sans-serif;
+        font-size:3vw;
+        color:#fbfcfd;
+        text-align:center;
+        letter-spacing:0.2em;
+        line-height: 50px;
+        margin:auto !important;
+        }
+
         #action.inner,
         #hebergement.inner,
         #attractions-musees.inner,
@@ -548,6 +582,22 @@ http://mydevice.io/devices/
         font-size:6vw;
         }
 
+        #action h1,
+        #hebergement h1,
+        #attractions-musees h1,
+        #partenaire h1,
+        #a-propos h1,
+        #reseaux-sociaux h1{
+        height: 50px;
+        background:#b1aa9d;
+        font-family: 'quicksandbold', sans-serif;
+        font-size:6vw;
+        color:#fbfcfd;
+        text-align:center;
+        letter-spacing:0.2em;
+        line-height: 50px;
+        margin:auto !important;
+        }
 
         div#separateur_01,
         div#separateur_02,
