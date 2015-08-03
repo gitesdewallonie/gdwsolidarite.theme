@@ -12,8 +12,8 @@
          tal:define="portal_url context/@@plone_portal_state/portal_url;
                      member context/@@plone_portal_state/member">
         <header>
-            <div id="logo" data-scroll>
-                <a href="#accueil"></a>
+            <div id="logo">
+                <a href="#accueil" data-scroll></a>
             </div>
             <nav class="nav-collapse">
                 <ul>
