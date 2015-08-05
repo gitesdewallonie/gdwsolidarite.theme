@@ -25,6 +25,7 @@ height:100%;
 
 body{
 font-family:'quicksandregular', sans-serif;
+font-size:1vw !important;
 margin:0;
 padding:0;
 color:#4b4b4b;
