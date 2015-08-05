@@ -557,7 +557,7 @@ http://mydevice.io/devices/
 /**** MOBILE ****/
 @media screen and (max-device-width: 480px){
         body{
-        font-size:1.2vw;
+        font-size:2vw;
         line-height:1.2vw;
         }
 
