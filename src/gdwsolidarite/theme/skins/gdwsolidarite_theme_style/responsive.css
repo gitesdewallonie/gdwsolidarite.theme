@@ -11,8 +11,8 @@ http://mydevice.io/devices/
 /*** DESKTOP ***/
 @media screen and (min-width: 1024px){
         body{
-        font-size: 16px;
-        line-height: 24px;
+        font-size:1.4vw;
+        line-height:1.3vw;
         }
 
         iframe{
@@ -138,8 +138,8 @@ http://mydevice.io/devices/
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
         body{
-        font-size: 16px;
-        line-height: 24px;
+        font-size:1.4vw;
+        line-height:1.3vx;
         }
 
         iframe{
@@ -283,8 +283,8 @@ http://mydevice.io/devices/
 /**** IPAD MODE PORTRAIT (vertical) ****/
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait){
         body{
-        font-size: 14px;
-        line-height: 21px;
+        font-size:1.2vw;
+        line-height:1.2vw;
         }
 
         iframe{
@@ -414,8 +414,8 @@ http://mydevice.io/devices/
 /**** IPAD MODE PAYSAGE (horizontal) ****/
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
         body{
-        font-size: 14px;
-        line-height: 21px;
+        font-size:1.2vw;
+        line-height:1.2vw;
         }
 
         iframe{
@@ -557,8 +557,8 @@ http://mydevice.io/devices/
 /**** MOBILE ****/
 @media screen and (max-device-width: 480px){
         body{
-        font-size: 14px;
-        line-height: 21px;
+        font-size:1.2vw;
+        line-height:1.2vw;
         }
 
         iframe{
