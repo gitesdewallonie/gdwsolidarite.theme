@@ -15,7 +15,7 @@
             <div id="logo">
                 <a href="#accueil" data-scroll></a>
             </div>
-            <nav class="nav-collapse">
+            <nav id="menu-sup" class="nav-collapse">
                 <ul>
                     <li class="menu-item active">
                         <a href="#accueil" data-scroll>Accueil</a>

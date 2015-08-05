@@ -34,6 +34,12 @@ http://mydevice.io/devices/
         background-size: cover;
         }
 
+        nav#menu-sup{
+        max-width:90%;
+        margin-left:180px;
+        /*border:1px solid #fff;*/
+        }
+
         article.article-section{
         width:70%;
         margin:auto;
@@ -153,6 +159,12 @@ http://mydevice.io/devices/
         background:url(logo_gdw.png) no-repeat center center transparent;
          -webkit-background-size: cover;
         background-size: cover;
+        }
+
+        nav#menu-sup{
+        max-width:90%;
+        margin-left:180px;
+        /*border:1px solid #00f;*/
         }
 
         article.article-section{
@@ -292,6 +304,11 @@ http://mydevice.io/devices/
         background-size: cover;
         }
 
+        nav#menu-sup{
+        /*border:1px solid #0f0;*/
+        width:90%;
+        }
+
         #accueil{
         background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
         }
@@ -420,6 +437,12 @@ http://mydevice.io/devices/
         background-size: cover;
         }
 
+        nav#menu-sup{
+        /*border:1px solid #f00;*/
+        width:90%;
+        }
+
+
         #accueil{
         background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
         }
@@ -437,24 +460,16 @@ http://mydevice.io/devices/
         font-size:2vw;
         }
 
-        #accueil h1{
-        font-size: 1.8em;
-        margin-left: -82px;
-        margin-top: -65px;
+        section#accueil h1{
+        font-size:4vw;
         }
 
-        #accueil h2{
-        font-size: 1.4em;
-        margin-left: -193.5px;
-        margin-top: -50px;
-        border-bottom: 1px solid #ecf0f1;
-        padding: 24px 0;
+        section#accueil h2{
+        font-size:2.5vw;
         }
 
-        #accueil h3{
-        margin-left: -209px;
-        margin-top: 180px;
-        font-size: 1em;
+        section#accueil h3{
+        font-size:1.5vw;
         }
 
         section#accueil article.article-section{
@@ -567,7 +582,6 @@ http://mydevice.io/devices/
         background:url(background_00_accueil_320x480.jpg)  no-repeat scroll;
         background-position:center top;
         }
-
 
         .nav-collapse li {
         text-align: center;
