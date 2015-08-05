@@ -9,10 +9,10 @@ http://mydevice.io/devices/
 */
 
 /*** DESKTOP ***/
-@media screen and (min-width: 1024px){
+@media screen and (min-width:1024px){
         body{
-        font-size:1.4vw;
-        line-height:1.3vw;
+        font-size:16px;
+        line-height:24px;
         }
 
         iframe{
@@ -22,7 +22,7 @@ http://mydevice.io/devices/
         }
 
         #logo {
-        float: left;
+        float:left;
         position:absolute;
         top:10px;
         left:10px;
@@ -30,8 +30,8 @@ http://mydevice.io/devices/
         height:160px;
         border-radius:6px;
         background:url(logo_gdw.png) no-repeat center center transparent;
-         -webkit-background-size: cover;
-        background-size: cover;
+         -webkit-background-size:cover;
+        background-size:cover;
         }
 
         nav#menu-sup{
@@ -72,7 +72,7 @@ http://mydevice.io/devices/
         #partenaire.coll_one,
         #a-propos.coll_one,
         #reseaux-sociaux.coll_one{
-        text-align: center;
+        text-align:center;
         border:1px solid #AAA;
         }
 
@@ -82,14 +82,14 @@ http://mydevice.io/devices/
         #partenaire h1,
         #a-propos h1,
         #reseaux-sociaux h1{
-        height: 50px;
+        height:50px;
         background:#b1aa9d;
-        font-family: 'quicksandbold', sans-serif;
-        font-size: 1.6em;
+        font-family:'quicksandbold', sans-serif;
+        font-size:1.6em;
         color:#fbfcfd;
         text-align:center;
         letter-spacing:0.2em;
-        line-height: 50px;
+        line-height:50px;
         margin:auto !important;
         }
 
@@ -99,8 +99,8 @@ http://mydevice.io/devices/
         #partenaire p,
         #a-propos p,
         #reseaux-sociaux p{
-        margin-bottom: 24px;
-        text-align: left;
+        margin-bottom:24px;
+        text-align:left;
         }
 
         #separateur_01{
@@ -136,10 +136,10 @@ http://mydevice.io/devices/
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width:768px) and (max-width:1023px){
         body{
-        font-size:1.4vw;
-        line-height:1.3vx;
+        font-size:16px;
+        line-height:24px;
         }
 
         iframe{
@@ -149,7 +149,7 @@ http://mydevice.io/devices/
         }
 
         #logo {
-        float: left;
+        float:left;
         position:absolute;
         top:10px;
         left:10px;
@@ -157,8 +157,8 @@ http://mydevice.io/devices/
         height:160px;
         border-radius:6px;
         background:url(logo_gdw.png) no-repeat center center transparent;
-         -webkit-background-size: cover;
-        background-size: cover;
+         -webkit-background-size:cover;
+        background-size:cover;
         }
 
         nav#menu-sup{
@@ -201,7 +201,7 @@ http://mydevice.io/devices/
         #partenaire,
         #a-propos,
         #reseaux-sociaux{
-        height: 800px;
+        height:800px;
         }
 
         #action.inner,
@@ -210,8 +210,8 @@ http://mydevice.io/devices/
         #partenaire.inner,
         #a-propos.inner,
         #reseaux-sociaux.inner{
-        position: relative;
-        margin-top: 50px;
+        position:relative;
+        margin-top:50px;
         }
 
         #action.coll_one,
@@ -220,9 +220,9 @@ http://mydevice.io/devices/
         #partenaire.coll_one,
         #a-propos.coll_one,
         #reseaux-sociaux.coll_one{
-        width: 60%;
-        margin: 0 auto;
-        text-align: center;
+        width:60%;
+        margin:0 auto;
+        text-align:center;
         }
 
         #action p,
@@ -231,14 +231,14 @@ http://mydevice.io/devices/
         #partenaire p,
         #a-propos p,
         #reseaux-sociaux p{
-        margin-bottom: 24px;
-        text-align: left;
+        margin-bottom:24px;
+        text-align:left;
         }
 
         h4{
-        height: 50px;
-        line-height: 50px;
-        font-size: 1em;
+        height:50px;
+        line-height:50px;
+        font-size:1em;
         }
 
         #separateur_01,
@@ -247,9 +247,9 @@ http://mydevice.io/devices/
         #separateur_04,
         #separateur_05,
         #separateur_06{
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
         background-size:cover;
         }
 
@@ -281,10 +281,10 @@ http://mydevice.io/devices/
 
 
 /**** IPAD MODE PORTRAIT (vertical) ****/
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait){
+@media only screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:portrait){
         body{
-        font-size:1.2vw;
-        line-height:1.2vw;
+        font-size:14px;
+        line-height:21px;
         }
 
         iframe{
@@ -292,7 +292,7 @@ http://mydevice.io/devices/
         }
 
         #logo {
-        float: left;
+        float:left;
         position:absolute;
         top:3px;
         left:5px;
@@ -300,8 +300,8 @@ http://mydevice.io/devices/
         height:50px;
         border-radius:6px;
         background:url(logo_gdw.png) no-repeat center center transparent;
-        -webkit-background-size: cover;
-        background-size: cover;
+        -webkit-background-size:cover;
+        background-size:cover;
         }
 
         nav#menu-sup{
@@ -314,12 +314,12 @@ http://mydevice.io/devices/
         }
 
         .nav-collapse li {
-        text-align: center;
-        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        text-align:center;
+        border-top:1px solid rgba(255, 255, 255, 0.5);
         }
 
         .nav-collapse li:first-child{
-        border-top: 0;
+        border-top:0;
         }
 
         section#accueil article.article-section{
@@ -346,7 +346,7 @@ http://mydevice.io/devices/
         #partenaire,
         #a-propos,
         #reseaux-sociaux{
-        height: 700px;
+        height:700px;
         }
 
         #action.inner,
@@ -355,8 +355,8 @@ http://mydevice.io/devices/
         #partenaire.inner,
         #a-propos.inner,
         #reseaux-sociaux.inner{
-        position: relative;
-        margin-top: 50px;
+        position:relative;
+        margin-top:50px;
         }
 
         #action.coll_one,
@@ -365,9 +365,9 @@ http://mydevice.io/devices/
         #partenaire.coll_one,
         #a-propos.coll_one,
         #reseaux-sociaux.coll_one{
-        width: 50%;
-        margin: 0 auto;
-        text-align: center;
+        width:50%;
+        margin:0 auto;
+        text-align:center;
         }
 
         #action h1,
@@ -376,14 +376,14 @@ http://mydevice.io/devices/
         #partenaire h1,
         #a-propos h1,
         #reseaux-sociaux h1{
-        height: 50px;
+        height:50px;
         background:#b1aa9d;
-        font-family: 'quicksandbold', sans-serif;
+        font-family:'quicksandbold', sans-serif;
         font-size:3vw;
         color:#fbfcfd;
         text-align:center;
         letter-spacing:0.2em;
-        line-height: 50px;
+        line-height:50px;
         margin:auto !important;
         }
 
@@ -393,29 +393,29 @@ http://mydevice.io/devices/
         #partenaire p,
         #a-propos p,
         #reseaux-sociaux p{
-        margin-bottom: 21px;
-        text-align: left;
+        margin-bottom:21px;
+        text-align:left;
         }
 
         #action a{
-        margin-bottom: 42px;
-        display: block;
+        margin-bottom:42px;
+        display:block;
         }
 
         h4{
-        height: 50px;
-        line-height: 50px;
-        font-size: 1em;
+        height:50px;
+        line-height:50px;
+        font-size:1em;
         }
 
 }
 
 
 /**** IPAD MODE PAYSAGE (horizontal) ****/
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+@media only screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:landscape) {
         body{
-        font-size:1.2vw;
-        line-height:1.2vw;
+        font-size:14px;
+        line-height:21px;
         }
 
         iframe{
@@ -425,7 +425,7 @@ http://mydevice.io/devices/
         }
 
         #logo {
-        float: left;
+        float:left;
         position:absolute;
         top:3px;
         left:5px;
@@ -433,8 +433,8 @@ http://mydevice.io/devices/
         height:50px;
         border-radius:6px;
         background:url(logo_gdw.png) no-repeat center center transparent;
-        -webkit-background-size: cover;
-        background-size: cover;
+        -webkit-background-size:cover;
+        background-size:cover;
         }
 
         nav#menu-sup{
@@ -448,12 +448,12 @@ http://mydevice.io/devices/
         }
 
         .nav-collapse li {
-        text-align: center;
-        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        text-align:center;
+        border-top:1px solid rgba(255, 255, 255, 0.5);
         }
 
         .nav-collapse li:first-child{
-        border-top: 0;
+        border-top:0;
         }
 
         .nav-collapse a {
@@ -485,7 +485,7 @@ http://mydevice.io/devices/
         #partenaire,
         #a-propos,
         #reseaux-sociaux{
-        height: 700px;
+        height:700px;
         }
 
         #action h1,
@@ -494,14 +494,14 @@ http://mydevice.io/devices/
         #partenaire h1,
         #a-propos h1,
         #reseaux-sociaux h1{
-        height: 50px;
+        height:50px;
         background:#b1aa9d;
-        font-family: 'quicksandbold', sans-serif;
+        font-family:'quicksandbold', sans-serif;
         font-size:3vw;
         color:#fbfcfd;
         text-align:center;
         letter-spacing:0.2em;
-        line-height: 50px;
+        line-height:50px;
         margin:auto !important;
         }
 
@@ -511,8 +511,8 @@ http://mydevice.io/devices/
         #partenaire.inner,
         #a-propos.inner,
         #reseaux-sociaux.inner{
-        position: relative;
-        margin-top: 50px;
+        position:relative;
+        margin-top:50px;
         }
 
         #action.coll_one,
@@ -521,9 +521,9 @@ http://mydevice.io/devices/
         #partenaire.coll_one,
         #a-propos.coll_one,
         #reseaux-sociaux.coll_one{
-        width: 50%;
-        margin: 0 auto;
-        text-align: center;
+        width:50%;
+        margin:0 auto;
+        text-align:center;
         }
 
         #action p,
@@ -532,19 +532,19 @@ http://mydevice.io/devices/
         #partenaire p,
         #a-propos p,
         #reseaux-sociaux p{
-        margin-bottom: 21px;
-        text-align: left;
+        margin-bottom:21px;
+        text-align:left;
         }
 
         #action a{
-        margin-bottom: 42px;
-        display: block;
+        margin-bottom:42px;
+        display:block;
         }
 
         h4{
-        height: 50px;
-        line-height: 50px;
-        font-size: 1em;
+        height:50px;
+        line-height:50px;
+        font-size:1em;
         }
 
 }
@@ -555,10 +555,10 @@ http://mydevice.io/devices/
 
 
 /**** MOBILE ****/
-@media screen and (max-device-width: 480px){
+@media screen and (max-device-width:480px){
         body{
-        font-size:2vw;
-        line-height:1.2vw;
+        font-size:18px;
+        line-height:24px;
         }
 
         iframe{
@@ -566,7 +566,7 @@ http://mydevice.io/devices/
         }
 
         #logo {
-        float: left;
+        float:left;
         position:absolute;
         top:3px;
         left:5px;
@@ -574,8 +574,8 @@ http://mydevice.io/devices/
         height:50px;
         border-radius:6px;
         background:url(logo_gdw.png) no-repeat center 0 transparent;
-        -webkit-background-size: cover;
-        background-size: cover;
+        -webkit-background-size:cover;
+        background-size:cover;
         }
 
         #accueil{
@@ -584,12 +584,12 @@ http://mydevice.io/devices/
         }
 
         .nav-collapse li {
-        text-align: center;
-        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        text-align:center;
+        border-top:1px solid rgba(255, 255, 255, 0.5);
         }
 
         .nav-collapse li:first-child{
-        border-top: 0;
+        border-top:0;
         }
 
         .nav-collapse a {
@@ -602,14 +602,14 @@ http://mydevice.io/devices/
         #partenaire h1,
         #a-propos h1,
         #reseaux-sociaux h1{
-        height: 50px;
+        height:50px;
         background:#b1aa9d;
-        font-family: 'quicksandbold', sans-serif;
+        font-family:'quicksandbold', sans-serif;
         font-size:6vw;
         color:#fbfcfd;
         text-align:center;
         letter-spacing:0.2em;
-        line-height: 50px;
+        line-height:50px;
         margin:auto !important;
         }
 
@@ -636,91 +636,91 @@ http://mydevice.io/devices/
 
         #accueil h2{
         font-size:4vw;
-        border-bottom: 1px solid #ecf0f1;
+        border-bottom:1px solid #ecf0f1;
         }
 
         #accueil h3{
         font-size:3vw;
-        text-align: center;
+        text-align:center;
         }
 
         #action .inner{
-        position: relative;
-        margin-top: 50px;
+        position:relative;
+        margin-top:50px;
         }
 
         #action .coll_one{
-        width: 80%;
-        margin: 0 auto;
-        text-align: center;
+        width:80%;
+        margin:0 auto;
+        text-align:center;
         }
 
         #action h5{
-        margin: 21px 0;
-        text-align: center;
+        margin:21px 0;
+        text-align:center;
         }
 
         #action p{
-        margin-bottom: 21px;
-        text-align: left;
+        margin-bottom:21px;
+        text-align:left;
         }
 
         #action .coll_text{
-        width: 100%;
-        margin: 42px 0 42px 0;
+        width:100%;
+        margin:42px 0 42px 0;
         }
 
         #action .coll_img{
-        display: none;
+        display:none;
         }
 
 
         #action .right{
-        margin-right: 0;
+        margin-right:0;
         }
 
         #action a{
-        margin-bottom: 42px;
-        display: block;
+        margin-bottom:42px;
+        display:block;
         }
 
         #contact{
-        height: 700px;
+        height:700px;
         }
 
         #contact .inner{
-        position: relative;
-        margin-top: 50px;
+        position:relative;
+        margin-top:50px;
         }
 
         #contact .coll_one{
-        width: 80%;
-        margin: 0 auto;
+        width:80%;
+        margin:0 auto;
         }
 
         #contact h5{
-        margin-bottom: 24px;
+        margin-bottom:24px;
         }
 
         #contact ul.social{
-        margin-top: 21px;
+        margin-top:21px;
         }
 
         #contact .social li{
-        display: inline-block;
-        width: 49%;
-        margin-right: 0;
-        margin-top: 21px;
+        display:inline-block;
+        width:49%;
+        margin-right:0;
+        margin-top:21px;
         }
 
         #contact .social a{
-        position: relative;
-        left: 50%;
-        margin-left: -15px;
+        position:relative;
+        left:50%;
+        margin-left:-15px;
         }
 
         .feedback-input{
-        line-height: 14px;
+        line-height:14px;
         }
 
         #button-blue{
@@ -729,13 +729,13 @@ http://mydevice.io/devices/
         }
 
         .ease{
-        height: 52px;
-        margin-bottom: 21px;
+        height:52px;
+        margin-bottom:21px;
         }
 
         h4{
-        height: 50px;
-        line-height: 50px;
-        font-size: 1em;
+        height:50px;
+        line-height:50px;
+        font-size:1em;
         }
 }
