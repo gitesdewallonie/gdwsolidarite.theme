@@ -63,8 +63,8 @@ cursor:pointer;
 .section {
 width:100%;
 min-height:100%;
-z-index:10;
-position:relative;
+/*z-index:10;
+position:relative;*/
 margin:0 auto;
 padding:0 0 20px 0;
 }
