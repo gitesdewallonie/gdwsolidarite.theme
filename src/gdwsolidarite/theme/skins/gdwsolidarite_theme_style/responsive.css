@@ -130,7 +130,7 @@ http://mydevice.io/devices/
         }
 
         div#separateur_04{
-        background:url(background_04_partenaire_mob.jpg) center 0 no-repeat fixed;
+        background:url(background_04_partenaire.jpg) center 0 no-repeat fixed;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
@@ -272,6 +272,7 @@ http://mydevice.io/devices/
 
         iframe{
         width:100%;
+        margin:auto;
         }
 
         #logo {
@@ -390,7 +391,7 @@ http://mydevice.io/devices/
         display:block;
         }
 
-                div#separateur_01{
+        div#separateur_01{
         background:url(background_01_action.jpg) center 0 no-repeat;
         -webkit-background-size:cover;
         -moz-background-size:cover;
@@ -415,7 +416,7 @@ http://mydevice.io/devices/
         }
 
         div#separateur_04{
-        background:url(background_04_partenaire_mob.jpg) center 0 no-repeat;
+        background:url(background_04_partenaire.jpg) center 0 no-repeat;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
@@ -611,7 +612,7 @@ http://mydevice.io/devices/
         }
 
         div#separateur_04{
-        background:url(background_04_partenaire_mob.jpg) center 0 no-repeat;
+        background:url(background_04_partenaire.jpg) center 0 no-repeat;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
