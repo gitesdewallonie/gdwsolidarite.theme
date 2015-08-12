@@ -185,13 +185,14 @@ padding:0px;
 }
 
 #reseaux-sociaux #social-network ul{
-display:flex;
-flex-wrap:wrap;
+/*display:flex;
+flex-wrap:wrap;*/
 margin:auto;
-width:32vw;
+width:230px;
 }
 
 #reseaux-sociaux #social-network ul li{
+display:inline-block;
 margin:1rem;
 list-style:none;
 text-align:center;
@@ -260,7 +261,6 @@ background-position:center top;
 #reseaux-sociaux .mail:hover{
 background-position:center bottom;
 }
-
 
 #a-propos h5{
 text-transform:uppercase;
