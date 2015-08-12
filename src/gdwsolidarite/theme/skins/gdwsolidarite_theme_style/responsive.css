@@ -30,7 +30,9 @@ http://mydevice.io/devices/
         height:160px;
         border-radius:6px;
         background:url(logo_gdw.png) no-repeat center center transparent;
-         -webkit-background-size:cover;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
         background-size:cover;
         }
 
@@ -103,33 +105,51 @@ http://mydevice.io/devices/
         text-align:left;
         }
 
-        #separateur_01{
+        div#separateur_01{
         background:url(background_01_action.jpg) center 0 no-repeat fixed;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
         background-size:cover;
         }
 
-        #separateur_02{
+        div#separateur_02{
         background:url(background_02_hebergement.jpg) center 0 no-repeat fixed;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
         background-size:cover;
         }
 
-        #separateur_03{
-        background:url(background_03_attractions-musees.jpg) center 0 no-repeat fixed;
+        div#separateur_03{
+        background:url(background_03_attractions_musees.jpg) center 0 no-repeat fixed;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
         background-size:cover;
         }
 
-        #separateur_04{
-        background:url(background_04_apropos.jpg) center 0 no-repeat fixed;
+        div#separateur_04{
+        background:url(background_04_partenaire_mob.jpg) center 0 no-repeat fixed;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
         background-size:cover;
         }
 
-        #separateur_05{
+        div#separateur_05{
         background:url(background_05_apropos.jpg) center 0 no-repeat fixed;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
         background-size:cover;
         }
 
-        #separateur_06{
+        div#separateur_06{
         background:url(background_06_nous_suivre.jpg) center 0 no-repeat fixed;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
         background-size:cover;
         }
 
@@ -240,51 +260,14 @@ http://mydevice.io/devices/
         line-height:50px;
         font-size:1em;
         }
-
-        #separateur_01,
-        #separateur_02,
-        #separateur_03,
-        #separateur_04,
-        #separateur_05,
-        #separateur_06{
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-        }
-
-        #separateur_01{
-        background:url(background_01_action.jpg) center 0 no-repeat fixed;
-        }
-
-        #separateur_02{
-        background:url(background_02_hebergement.jpg) center 0 no-repeat fixed;
-        }
-
-        #separateur_03{
-        background:url(background_03_attractions-musees.jpg) center 0 no-repeat fixed;
-        }
-
-        #separateur_04{
-        background:url(background_04_apropos.jpg) center 0 no-repeat fixed;
-        }
-
-        #separateur_05{
-        background:url(background_05_apropos.jpg) center 0 no-repeat fixed;
-        }
-
-        #separateur_06{
-        background:url(background_06_nous_suivre.jpg) center 0 no-repeat fixed;
-        }
-
 }
 
 
 /**** IPAD MODE PORTRAIT (vertical) ****/
 @media only screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:portrait){
         body{
-        font-size:14px;
-        line-height:21px;
+        font-size:24px;
+        line-height:30px;
         }
 
         iframe{
@@ -305,7 +288,6 @@ http://mydevice.io/devices/
         }
 
         nav#menu-sup{
-        /*border:1px solid #0f0;*/
         width:90%;
         }
 
@@ -315,16 +297,22 @@ http://mydevice.io/devices/
 
         .nav-collapse li {
         text-align:center;
-        border-top:1px solid rgba(255, 255, 255, 0.5);
+        /*border-top:1px solid rgba(255, 255, 255, 0.5);*/
         }
 
         .nav-collapse li:first-child{
         border-top:0;
         }
 
+        .nav-collapse a {
+        font-size:15px;
+        font-weight:bold;
+        padding: 1.02em 13px;
+        }
+
         section#accueil article.article-section{
         position:relative;
-        top:60%;
+        top:70%;
         height:400px;
         }
 
@@ -346,7 +334,7 @@ http://mydevice.io/devices/
         #partenaire,
         #a-propos,
         #reseaux-sociaux{
-        height:700px;
+        min-height:700px;
         }
 
         #action.inner,
@@ -402,10 +390,63 @@ http://mydevice.io/devices/
         display:block;
         }
 
+                div#separateur_01{
+        background:url(background_01_action.jpg) center 0 no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+        div#separateur_02{
+        background:url(background_02_hebergement.jpg) center 0 no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+        div#separateur_03{
+        background:url(background_03_attractions_musees.jpg) center 0 no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+        div#separateur_04{
+        background:url(background_04_partenaire_mob.jpg) center 0 no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+        div#separateur_05{
+        background:url(background_05_apropos.jpg) center 0 no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+        div#separateur_06{
+        background:url(background_06_nous_suivre.jpg) center 0 no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
         h4{
         height:50px;
         line-height:50px;
         font-size:1em;
+        }
+
+        article.article-section{
+        width:90%;
+        margin:auto;
         }
 
 }
@@ -414,8 +455,8 @@ http://mydevice.io/devices/
 /**** IPAD MODE PAYSAGE (horizontal) ****/
 @media only screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:landscape) {
         body{
-        font-size:14px;
-        line-height:21px;
+        font-size:30px;
+        line-height:36px;
         }
 
         iframe{
@@ -438,10 +479,8 @@ http://mydevice.io/devices/
         }
 
         nav#menu-sup{
-        /*border:1px solid #f00;*/
-        width:90%;
+        width:100%;
         }
-
 
         #accueil{
         background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
@@ -449,7 +488,6 @@ http://mydevice.io/devices/
 
         .nav-collapse li {
         text-align:center;
-        border-top:1px solid rgba(255, 255, 255, 0.5);
         }
 
         .nav-collapse li:first-child{
@@ -457,7 +495,9 @@ http://mydevice.io/devices/
         }
 
         .nav-collapse a {
-        font-size:2vw;
+        font-size:16px;
+        font-weight:bold;
+        padding: 1.02em 2em;
         }
 
         section#accueil h1{
@@ -475,9 +515,8 @@ http://mydevice.io/devices/
         section#accueil article.article-section{
         position:relative;
         top:75%;
-        height:200px;
+        height:230px;
         }
-
 
         #action,
         #hebergement,
@@ -485,7 +524,9 @@ http://mydevice.io/devices/
         #partenaire,
         #a-propos,
         #reseaux-sociaux{
-        height:700px;
+        min-height:700px;
+        width:95%;
+        /*border:1px solid #f00;*/
         }
 
         #action h1,
@@ -541,10 +582,68 @@ http://mydevice.io/devices/
         display:block;
         }
 
+        .separateur{
+        /*border:2px solid #f00;*/
+        }
+
+        div#separateur_01{
+        background:url(background_01_action.jpg) center 0 no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+        div#separateur_02{
+        background:url(background_02_hebergement.jpg) center 0 no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+        div#separateur_03{
+        background:url(background_03_attractions_musees.jpg) center 0 no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+        div#separateur_04{
+        background:url(background_04_partenaire_mob.jpg) center 0 no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+        div#separateur_05{
+        background:url(background_05_apropos.jpg) center 0 no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+        div#separateur_06{
+        background:url(background_06_nous_suivre.jpg) center 0 no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        }
+
+
         h4{
         height:50px;
         line-height:50px;
         font-size:1em;
+        }
+
+        article.article-section{
+        width:80%;
+        margin:auto;
         }
 
 }
