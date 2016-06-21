@@ -57,6 +57,19 @@ http://mydevice.io/devices/
         background:url(background_00_accueil.jpg) center 0 no-repeat fixed;
         }
 
+        div#pastille-edition{
+        position:relative;
+        left:80%;
+        top:80px;
+        z-index:10;
+        width:112px;
+        height:112px;
+        background-image:url(pastille_edition.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        }
+
+
         #action,
         #hebergement,
         #attractions-musees,
@@ -185,6 +198,18 @@ http://mydevice.io/devices/
         max-width:90%;
         margin-left:180px;
         /*border:1px solid #00f;*/
+        }
+
+        div#pastille-edition{
+        position:relative;
+        left:80%;
+        top:80px;
+        z-index:10;
+        width:112px;
+        height:112px;
+        background-image:url(pastille_edition.png);
+        background-repeat:no-repeat;
+        background-size:cover;
         }
 
         article.article-section{

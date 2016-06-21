@@ -45,6 +45,7 @@
         <div id="one-content">
             <section id="accueil"
                      class="section s1">
+                <div id="pastille-edition"></div>
                 <article class="article-section">
                     <h1>Un gîte pour tous</h1>
                     <h2>Une action sociale et solidaire de la Fédération des Gîtes de Wallonie</h2>
