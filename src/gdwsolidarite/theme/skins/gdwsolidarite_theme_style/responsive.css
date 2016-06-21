@@ -58,17 +58,9 @@ http://mydevice.io/devices/
         }
 
         div#pastille-edition{
-        position:relative;
         left:80%;
         top:80px;
-        z-index:10;
-        width:112px;
-        height:112px;
-        background-image:url(pastille_edition.png);
-        background-repeat:no-repeat;
-        background-size:cover;
         }
-
 
         #action,
         #hebergement,
@@ -201,15 +193,8 @@ http://mydevice.io/devices/
         }
 
         div#pastille-edition{
-        position:relative;
         left:80%;
         top:80px;
-        z-index:10;
-        width:112px;
-        height:112px;
-        background-image:url(pastille_edition.png);
-        background-repeat:no-repeat;
-        background-size:cover;
         }
 
         article.article-section{
@@ -311,6 +296,11 @@ http://mydevice.io/devices/
         background:url(logo_gdw.png) no-repeat center center transparent;
         -webkit-background-size:cover;
         background-size:cover;
+        }
+
+        div#pastille-edition{
+        left:85%;
+        top:80px;
         }
 
         nav#menu-sup{
@@ -502,6 +492,11 @@ http://mydevice.io/devices/
         background:url(logo_gdw.png) no-repeat center center transparent;
         -webkit-background-size:cover;
         background-size:cover;
+        }
+
+        div#pastille-edition{
+        left:80%;
+        top:130px;
         }
 
         nav#menu-sup{
@@ -703,6 +698,12 @@ http://mydevice.io/devices/
         background-size:cover;
         }
 
+        div#pastille-edition{
+        left:175px;
+        top:320px;
+        }
+
+
         #accueil{
         background:url(background_00_accueil_320x480.jpg)  no-repeat scroll;
         background-position:center top;
@@ -749,7 +750,7 @@ http://mydevice.io/devices/
 
         section#accueil article.article-section{
         position:relative;
-        top:480px;
+        top:400px;
         height:200px;
         }
 

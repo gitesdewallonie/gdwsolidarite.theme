@@ -128,6 +128,15 @@ background-size:cover;
 }
 
 /* pastille edition dans responsive.css */
+div#pastille-edition{
+position:relative;
+z-index:10;
+width:112px;
+height:112px;
+background-image:url(pastille_edition.png);
+background-repeat:no-repeat;
+background-size:cover;
+}
 
 section#accueil article.article-section{
 background-color:rgba(50,50,50,0.4);
