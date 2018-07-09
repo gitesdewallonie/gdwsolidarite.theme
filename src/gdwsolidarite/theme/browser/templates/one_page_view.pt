@@ -27,9 +27,6 @@
                         <a href="#hebergement" data-scroll>Hébergements</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#attractions-musees" data-scroll>Attractions et Musées</a>
-                    </li>
-                    <li class="menu-item">
                         <a href="#partenaire" data-scroll>Partenaires</a>
                     </li>
                     <li class="menu-item">
@@ -45,7 +42,6 @@
         <div id="one-content">
             <section id="accueil"
                      class="section s1">
-                <div id="pastille-edition"></div>
                 <article class="article-section">
                     <h1>Un gîte pour tous</h1>
                     <h2>Une action sociale et solidaire de la Fédération des Gîtes de Wallonie</h2>
@@ -87,25 +83,6 @@
                     </div>
                 </article>
             </section><!-- end hebergements -->
-
-            <div id="separateur_03" class="separateur"></div>
-
-            <section id="attractions-musees"
-                     class="section s4">
-                <h1>Attractions et musées</h1>
-                <article class="article-section">
-                    <div class="coll_one"
-                         tal:define="content python: view.getPageText('attractions-musees')"
-                         tal:content="structure content">
-                    </div>
-                    <div class="bouton-modifier"
-                         tal:condition="python: member.has_role('Manager')">
-                        <a href=""
-                           tal:attributes="href string:${portal_url}/attractions-musees/edit">Modifier cette zone</a>
-                    </div>
-                </article>
-            </section><!-- end partenaire1 -->
-
 
             <div id="separateur_04" class="separateur"></div>
 
